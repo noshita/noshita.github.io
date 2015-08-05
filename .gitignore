@@ -1,6 +1,7 @@
 ## Pelican
 output/*
 *.pid
+theme/*
 
 ## Python
 *.py[cod]
