@@ -5,6 +5,7 @@ Tags: pelican, python, news
 Slug: news
 Author: Koji NOSHITA
 Summary: 記事の要約です。
+Status:draft
 
 # ニュースのテスト
 

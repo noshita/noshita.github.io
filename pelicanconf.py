@@ -24,9 +24,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('生物測定学研究室', 'https://sites.google.com/a/ut-biomet.org/lbm/home'),
-         ('数理生物学研究室', 'http://bio-math10.biology.kyushu-u.ac.jp/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('数理生物学研究室', 'http://bio-math10.biology.kyushu-u.ac.jp/'),)
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/noshita'),)
