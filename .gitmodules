@@ -1,0 +1,6 @@
+[submodule "theme/pelican-bootstrap3"]
+	path = theme/pelican-bootstrap3
+	url = https://github.com/noshita/pelican-bootstrap3.git
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins.git
