@@ -25,9 +25,9 @@ AUTHOR_FEED_RSS = None
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
-			("Profile", "/pages/profile.html"),
 			("Research", "/pages/research.html"),
 			("Publications", "/pages/publications.html"),
+			("Profile", "/pages/profile.html"),
 			("Blog", "/category/blog/index.html")
 			]
 
@@ -36,19 +36,20 @@ LINKS = (('生物測定学研究室', 'https://sites.google.com/a/ut-biomet.org/
          ('数理生物学研究室', 'http://bio-math10.biology.kyushu-u.ac.jp/'),)
 
 # Social widget
-SOCIAL = (('Github', 'https://github.com/noshita'),)
+SOCIAL = (('Github', 'https://github.com/noshita'),
+		("RSS", "http://koji.noshita.net/feeds/all.atom.xml"))
 
 # Formatting for URLs
 ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
 ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
 
 DISPLAY_CATEGORIES_ON_SIDEBAR = False
-CATEGORY_URL = "category/{slug}/index.html"
+CATEGORY_URL = "category/{slug}/"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
 
 DISPLAY_TAGS_ON_SIDEBAR = True
-TAGS_URL = 'tags/{slug}/index.html'
-TAG_SAVE_AS = "tag/{slug}/index.html"
+TAGS_URL = 'tags/{slug}/'
+TAG_SAVE_AS = "tag/{slug}.html"
 
 DEFAULT_PAGINATION = 10
 
@@ -76,7 +77,7 @@ FAVICON = 'images/site_logo_sq.png'
 
 # About Me
 ABOUT_ME = '<p>生物やその構造物の「かたち」を理論的に研究しています．</p>'
-AVATAR = 'images/site_logo_sq.png'
+AVATAR = '/images/site_logo_sq.png'
 
 # Custamize
 EVENTS_TITLE = '近況'
