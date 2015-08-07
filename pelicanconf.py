@@ -52,7 +52,7 @@ THEME = './theme/pelican-bootstrap3'
 
 # Mathematical Eqs.
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['render_math']
+PLUGINS = ['render_math', 'always_modified']
 ALWAYS_MODIFIED = True
 
 
