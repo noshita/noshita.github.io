@@ -6,3 +6,4 @@ Author: Koji NOSHITA
 Summary: Webページを新しい環境へ移行させました．
 
 不備があれば御連絡下さい．
+noshita at morphometrics.jp
