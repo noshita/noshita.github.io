@@ -43,11 +43,11 @@ ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
 ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
 
 DISPLAY_CATEGORIES_ON_SIDEBAR = False
-CATEGORY_URL = "category/{slug}"
+CATEGORY_URL = "category/{slug}/index.html"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
 
 DISPLAY_TAGS_ON_SIDEBAR = True
-TAGS_URL = 'tags/{slug}/'
+TAGS_URL = 'tags/{slug}/index.html'
 TAG_SAVE_AS = "tag/{slug}/index.html"
 
 DEFAULT_PAGINATION = 10
@@ -69,7 +69,14 @@ TAG_CLOUD_MAX_ITEMS = 10
 TAG_CLOUD_SORTING = 'size' 
 
 # Logo
-SITELOGO = 'images/site_logo.png'
+SITELOGO = 'images/site_logo_sq.png'
+SITELOGO_SIZE = 30
+HIDE_SITENAME = True
+FAVICON = 'images/site_logo_sq.png'
+
+# About Me
+ABOUT_ME = '<p>生物やその構造物の「かたち」を理論的に研究しています．</p>'
+AVATAR = 'images/site_logo_sq.png'
 
 # Custamize
 EVENTS_TITLE = '近況'
