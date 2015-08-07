@@ -42,7 +42,7 @@ SOCIAL = (('Github', 'https://github.com/noshita'),)
 ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
 ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
 
-DISPLAY_CATEGORIES_ON_SIDEBAR = True
+DISPLAY_CATEGORIES_ON_SIDEBAR = False
 CATEGORY_URL = "category/{slug}"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
 
@@ -68,6 +68,8 @@ PLUGINS = ['render_math','tag_cloud']
 TAG_CLOUD_MAX_ITEMS = 10
 TAG_CLOUD_SORTING = 'size' 
 
+# Logo
+SITELOGO = 'images/site_logo.png'
 
 # Custamize
 EVENTS_TITLE = '近況'
