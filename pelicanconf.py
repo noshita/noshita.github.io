@@ -36,6 +36,7 @@ ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
 CATEGORY_URL = "category/{slug}"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
 
+DISPLAY_TAGS_ON_SIDEBAR = True
 TAGS_URL = 'tags/{slug}/'
 TAG_SAVE_AS = "tag/{slug}/index.html"
 
@@ -52,8 +53,8 @@ THEME = './theme/pelican-bootstrap3'
 
 # Mathematical Eqs.
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['render_math', 'always_modified']
-ALWAYS_MODIFIED = True
+PLUGINS = ['render_math','tag_cloud']
+# ALWAYS_MODIFIED = True
 
 
 # Custamize
