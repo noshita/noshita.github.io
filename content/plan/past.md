@@ -1,5 +1,5 @@
 Title: 過去
-Date: 2014-01-04 22:00
+Date: 2015-08-07 17:00
 Author: Koji NOSHITA
 Summary: 過去の活動
 Slug: past_events
