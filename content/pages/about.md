@@ -1,6 +1,6 @@
 Title: About
 Date: 2015-08-06 22:00
-Modify: 2015-08-06 22:00
+Modified: 2015-08-06 22:00
 Tags: 研究
 Slug: profile
 Authors: Koji NOSHITA
