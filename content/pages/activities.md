@@ -6,6 +6,7 @@ Slug: activities
 Authors: Koji NOSHITA
 Summary: これまでとこれからの活動
 
+## 活動
 ### これから
 
 * 2015.08.20-22　進化学会

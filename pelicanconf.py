@@ -80,5 +80,5 @@ ABOUT_ME = '<p>生物やその構造物の「かたち」を理論的に研究�
 AVATAR = '/images/site_logo_sq.png'
 
 # Custamize
-ACTIVITIES_TITLE = 'Activities'
+ACTIVITIES_SLUG = 'activities'
 NEWS_TAG = 'news'
