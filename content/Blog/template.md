@@ -1,7 +1,7 @@
 Title: 
 Date: 
 Tags: 
-Slug: 
+Slug: template
 Author: Koji NOSHITA
 Summary: 
 Status: draft
