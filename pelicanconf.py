@@ -26,7 +26,9 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [
 			("Profile", "pages/profile.html"),
-			("Research", "pages/research.html")
+			("Research", "pages/research.html"),
+			("Publications", "pages/publications.html"),
+			("Blog", "category/blog/index.html")
 			]
 
 # Blogroll
