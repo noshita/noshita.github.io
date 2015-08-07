@@ -21,6 +21,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Menu
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [("About", "pages/about.html")
+			]
 
 # Blogroll
 LINKS = (('生物測定学研究室', 'https://sites.google.com/a/ut-biomet.org/lbm/home'),
@@ -33,6 +38,7 @@ SOCIAL = (('Github', 'https://github.com/noshita'),)
 ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
 ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
 
+DISPLAY_CATEGORIES_ON_SIDEBAR = True
 CATEGORY_URL = "category/{slug}"
 CATEGORY_SAVE_AS = "category/{slug}/index.html"
 
@@ -55,6 +61,8 @@ THEME = './theme/pelican-bootstrap3'
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['render_math','tag_cloud']
 # ALWAYS_MODIFIED = True
+TAG_CLOUD_MAX_ITEMS = 10
+TAG_CLOUD_SORTING = 'size' 
 
 
 # Custamize
