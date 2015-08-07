@@ -24,7 +24,9 @@ AUTHOR_FEED_RSS = None
 # Menu
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
-MENUITEMS = [("About", "pages/about.html")
+MENUITEMS = [
+			("About", "pages/about.html"),
+			("Research", "pages/research.html")
 			]
 
 # Blogroll
