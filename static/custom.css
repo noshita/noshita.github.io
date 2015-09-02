@@ -1,4 +1,10 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:'Noto Sans Japanese', sans-serif;}
-p{font-family:'Noto Sans Japanese', sans-serif;}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-family:'Noto Sans Japanese', sans-serif;
+}
+
+p {
+	font-family:'Noto Sans Japanese', sans-serif;
+	font-size: medium;
+}
