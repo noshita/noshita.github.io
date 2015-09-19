@@ -23,9 +23,9 @@
         margin-top:0;
         width:100%;
     }
-/*    .navbar-nav .dropdown-menu > li > a, 
+    .navbar-nav .dropdown-menu > li > a, 
     .navbar-nav .dropdown-menu .dropdown-header {
-        padding:0px 15px 5px 25px;
+        padding:5px 15px 5px 25px;
     }
     .navbar-nav .dropdown-menu > li > a{
         line-height:50px;
@@ -33,7 +33,7 @@
     .navbar-default .navbar-nav .dropdown-menu > li > a{
         
         color:#777;
-    }*/
+    }
  a.dropdown-toggle .caret {
     display: none;
 }   
