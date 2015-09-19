@@ -16,12 +16,12 @@
 @media (max-width:767px){
     ul.nav > li.dropdown > .dropdown-menu{
         display: block;
-        position: static;
+        position: relative;
         background-color:#99cc00;
-/*        border:0;
+        border:0;
         box-shadow:none;
         margin-top:0;
-        width:100%;*/
+        width:100%;
     }
  /*   .navbar-nav .dropdown-menu > li > a, 
     .navbar-nav .dropdown-menu .dropdown-header {
