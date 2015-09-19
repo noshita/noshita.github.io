@@ -6,7 +6,7 @@ ul.nav .sub-menu {
   display: none;
 }
 ul.nav .sub-menu a {
-  color: #777;
+  color: #e7e7e7;
   padding: 10px 15px;
   display: block;
 }
@@ -19,5 +19,5 @@ ul.nav .menu-item-has-children:hover ul {
   display: block;
 }
 ul.nav li.menu-item-has-children li a:hover {
-  background: #0090aa;
+  /*background: #0090aa;*/
 }
