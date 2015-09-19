@@ -14,7 +14,7 @@
 }*/
 
 @media (max-width:767px){
-    .dropdown-menu{
+    ul.nav > li.dropdown > .dropdown-menu{
         display: block;
         position: static;
         background-color:#99cc00;
