@@ -1,8 +1,8 @@
 ul.nav .sub-menu {
   position: absolute;
   width: 180px;
-  background: #0bd;
-  top: 30px;
+  background: #e7e7e70bd;
+  top: 340px;
   display: none;
 }
 ul.nav .sub-menu a {
