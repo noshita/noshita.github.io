@@ -23,6 +23,9 @@
         margin-top:0;
         width:100%;
     }
+    ul.nav > li.dropdown > .dropdown-menu:hover{
+		color:#000000;
+    }
     .navbar-nav .dropdown-menu > li > a, 
     .navbar-nav .dropdown-menu .dropdown-header {
         padding:0px 15px 10px 25px;
