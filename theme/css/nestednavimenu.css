@@ -2,7 +2,7 @@ ul.nav .sub-menu {
   position: absolute;
   width: 180px;
   background: #e7e7e7;
-  top: 340px;
+  top: 50px;
   display: none;
 }
 ul.nav .sub-menu a {
