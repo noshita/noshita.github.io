@@ -1,17 +1,3 @@
-/*@media (max-width: 769px) {
-   Fix Bootstrap dropdown to work on hover
-  ul.nav li.dropdown > ul.dropdown-menu  {
-    display: block;
-  }
-}*/
-.caret {
-    position: absolute !important; top: 0; right: 0;
-}
-
-.dropdown-toggle.disabled {
-    padding-right: 40px;
-}
-
 /* Small devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   /* Fix Bootstrap dropdown to work on hover*/
