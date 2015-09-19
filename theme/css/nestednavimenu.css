@@ -3,7 +3,7 @@
 }*/
 
 /* Small devices (tablets, 768px and up)*/
-@media (min-width: $screen-sm-min) {
+@media (min-width: 768px) {
   /* Fix Bootstrap dropdown to work on hover*/
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
