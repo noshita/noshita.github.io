@@ -3,13 +3,13 @@ ul.nav .sub-menu {
   width: 180px;
   background: #f8f8f8;
   top: 50px;
+  list-style-type: none;
+  border-width: 0 0 1px;
   display: none;
 }
 ul.nav .sub-menu a {
   color: #777;
   padding: 10px 15px;
-  list-style-type: none;
-  border-width: 0 0 1px;
   display: block;
 }
 /*ul.nav .sub-menu a:hover {
