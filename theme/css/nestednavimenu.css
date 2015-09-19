@@ -16,8 +16,8 @@
 @media (max-width:767px){
     ul.nav > li.dropdown > .dropdown-menu{
         display: block;
-/*        position: relative;
-        background-color:#99cc00;*/
+        position: relative;
+        background-color:#99cc00;
 /*        border:0;
         box-shadow:none;
         margin-top:0;
