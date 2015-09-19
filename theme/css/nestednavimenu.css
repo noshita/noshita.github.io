@@ -1,0 +1,15 @@
+ul.nav .sub-menu {
+  position: absolute;
+  width: 180px;
+  background: #0bd;
+  top: 30px;
+  display: none;
+}
+ul.nav .sub-menu a {
+  color: #fff;
+  padding: 10px 15px;
+  display: block;
+}
+ul.nav .sub-menu a:hover {
+  color: #fff;
+}
