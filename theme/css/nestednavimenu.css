@@ -8,6 +8,8 @@ ul.nav .sub-menu {
 ul.nav .sub-menu a {
   color: #777;
   padding: 10px 15px;
+  list-style-type: none;
+  border-width: 0 0 1px;
   display: block;
 }
 /*ul.nav .sub-menu a:hover {
@@ -17,7 +19,6 @@ ul.nav .sub-menu a {
 /* ホバーで子メニュー表示 */
 ul.nav .menu-item-has-children:hover ul {
   display: block;
-  border-width: 0 0 1px;
 }
 ul.nav li.menu-item-has-children li a:hover {
   /*background: #0090aa;*/
