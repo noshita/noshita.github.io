@@ -27,10 +27,10 @@
     .navbar-nav .dropdown-menu .dropdown-header {
         padding:0px 15px 10px 25px;
     }
-/*    .navbar-default .navbar-nav .dropdown-menu > li > a{
+    .navbar-default .navbar-nav .dropdown-menu > li > a{
         
         color:#777;
-    }*/
+    }
  a.dropdown-toggle .caret {
     display: none;
 }   
