@@ -18,7 +18,7 @@
         display: block;
         position: relative;
         background-color:transparent;
-        border:0;
+        border:0 none;
         box-shadow:none;
         margin-top:0;
         width:100%;
