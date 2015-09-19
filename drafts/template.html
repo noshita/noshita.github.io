@@ -43,21 +43,6 @@
     <!-- Nested Navibar -->
         <link rel="stylesheet" href="http://noshita.github.io/theme/css/nestednavimenu.css" type="text/css"/>
 
-    <script type='text/javascript'>//<![CDATA[ 
-        if (window.matchMedia('screen and (min-width:768px)').matches) { 
-            //768px以上のデスクトップでの処理
-        }else{
-                //スクリーンサイズが768pxより小さい時の処理
-                $(window).load(function(){
-                $('.dropdown.keep-open').on({
-                    "shown.bs.dropdown": function() { this.closable = false; },
-                    "click":             function() { this.closable = true; },
-                    "hide.bs.dropdown":  function() { return this.closable; }
-                });
-                });//]]> 
-            } 
-    </script>
-
 </head>
 <body>
 
@@ -86,7 +71,7 @@
                     <li><a href="/pages/publications.html">Publications</a></li>
                     <li><a href="/pages/profile.html">Profile</a></li>
                         <li class="dropdown keep-open">
-                        <a href="/pages/research.html" class="dropdown-toggle disabled" data-toggle="dropdown">Articles <span class="caret" ></span></a>
+                        <a href="/pages/research.html">Articles <span class="caret" class="dropdown-toggle" data-toggle="dropdown"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="/pages/morphometrics.html">Morphometrics</a></li>
                         </ul>
@@ -194,13 +179,13 @@
             <li class="list-group-item"><a href="http://noshita.github.io/tags/{slug}/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
                     <li class="list-group-item tag-4">
-                        <a href="http://noshita.github.io/tag/pelican.html">
-                            pelican
+                        <a href="http://noshita.github.io/tag/web.html">
+                            web
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="http://noshita.github.io/tag/web.html">
-                            web
+                        <a href="http://noshita.github.io/tag/pelican.html">
+                            pelican
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
