@@ -13,3 +13,11 @@ ul.nav .sub-menu a {
 ul.nav .sub-menu a:hover {
   color: #fff;
 }
+
+/* ホバーで子メニュー表示 */
+ul.nav .menu-item-has-children:hover ul {
+  display: block;
+}
+ul.nav li.menu-item-has-children li a:hover {
+  background: #0090aa;
+}
