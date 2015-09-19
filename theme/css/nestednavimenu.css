@@ -10,9 +10,9 @@ ul.nav .sub-menu a {
   padding: 10px 15px;
   display: block;
 }
-ul.nav .sub-menu a:hover {
+/*ul.nav .sub-menu a:hover {
   color: #333;
-}
+}*/
 
 /* ホバーで子メニュー表示 */
 ul.nav .menu-item-has-children:hover ul {
@@ -20,4 +20,5 @@ ul.nav .menu-item-has-children:hover ul {
 }
 ul.nav li.menu-item-has-children li a:hover {
   /*background: #0090aa;*/
+  color: #333;
 }
