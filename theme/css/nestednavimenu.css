@@ -5,3 +5,11 @@
     display: block;
   }
 }
+
+/* Small devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+  /* Fix Bootstrap dropdown to work on hover*/
+  ul.nav li.dropdown > ul.dropdown-menu {
+    display: inline;
+  }
+}
