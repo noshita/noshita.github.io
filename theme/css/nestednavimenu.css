@@ -17,6 +17,7 @@ ul.nav .sub-menu a {
 /* ホバーで子メニュー表示 */
 ul.nav .menu-item-has-children:hover ul {
   display: block;
+  border-width: 0 0 1px;
 }
 ul.nav li.menu-item-has-children li a:hover {
   /*background: #0090aa;*/
