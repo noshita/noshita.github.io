@@ -1,6 +1,6 @@
-ul.nav li.dropdown:hover > ul.dropdown-menu {
+/*ul.nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
-}
+}*/
 
 /* Small devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
