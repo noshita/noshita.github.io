@@ -28,16 +28,20 @@ MENUITEMS = [
 			("Research", "/pages/research.html"),
 			("Publications", "/pages/publications.html"),
 			("Profile", "/pages/profile.html"),
+			("Notes", ["/pages/notes.html", ("Morphometrics", "/pages/morphometrics.html"),("S&M", "/pages/sandm.html"),("Computational Biology", "/pages/compbio.html")]),
 			("Blog", "/category/blog/index.html")
 			]
 
 # Blogroll
 LINKS = (('生物測定学研究室', 'https://sites.google.com/a/ut-biomet.org/lbm/home'),
-         ('数理生物学研究室', 'http://bio-math10.biology.kyushu-u.ac.jp/'),)
+         ('数理生物学研究室', 'http://bio-math10.biology.kyushu-u.ac.jp/'),
+         ('貝類学研究集会', 'http://www.molluscoida.org'),
+         )
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/noshita'),
-		("RSS", "http://koji.noshita.net/feeds/all.atom.xml"))
+		("RSS", "http://koji.noshita.net/feeds/all.atom.xml"),)
+		# ('Mail', 'mailto:noshita@morphometrics.jp','envelope'),)
 
 # Formatting for URLs
 ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
@@ -61,6 +65,14 @@ DEFAULT_PAGINATION = 10
 THEME = './theme/pelican-bootstrap3'
 # THEME = './theme/pure'
 # THEME = './theme/html5-dopetrope'
+
+# Extend Markdown
+# MyEXTENSIONS_PATH = "./extensions/mdx_myextension.py"
+# from extensions import mdx_myextension
+import sys, os
+MyEXTENSION_PATH = os.path.dirname(os.path.abspath(__file__)) + "/extensions"
+sys.path.append(MyEXTENSION_PATH)
+MD_EXTENSIONS = ['linkify', 'del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 'tables', 'meta', 'footnotes', 'bibtex', 'myextension']
 
 # Mathematical Eqs.
 PLUGIN_PATHS = ['./pelican-plugins']
