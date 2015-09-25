@@ -67,12 +67,14 @@ THEME = './theme/pelican-bootstrap3'
 # THEME = './theme/html5-dopetrope'
 
 # Extend Markdown
-# MyEXTENSIONS_PATH = "./extensions/mdx_myextension.py"
-# from extensions import mdx_myextension
+# MyEXTENSIONS_PATH = "./extensions"
+# bibtex_ROOTPATH = "./content"
 import sys, os
 MyEXTENSION_PATH = os.path.dirname(os.path.abspath(__file__)) + "/extensions"
 sys.path.append(MyEXTENSION_PATH)
-MD_EXTENSIONS = ['linkify', 'del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 'tables', 'meta', 'footnotes', 'bibtex', 'myextension']
+bibtex_ROOTPATH = os.path.dirname(os.path.abspath(__file__)) + "/content"
+bibtex = "bibtex(root="+bibtex_ROOTPATH+")"
+MD_EXTENSIONS = ['linkify', 'del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 'tables', 'meta', 'footnotes', bibtex, 'myextension']
 
 # Mathematical Eqs.
 PLUGIN_PATHS = ['./pelican-plugins']

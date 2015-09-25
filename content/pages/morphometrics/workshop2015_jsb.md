@@ -4,7 +4,7 @@ Modified: 2015-09-20 18:00
 Tags: 研究
 Slug: workshop2015_jsb
 Authors: Koji NOSHITA
-Bibliography: /Users/Noshita/Web/noshita.github.io/content/pages/morphometrics/workshop2015_jsb.bib
+Bibliography: pages/morphometrics/workshop2015_jsb.bib
 Summary: 育種学会2015秋の若手の会ワークショップでおこなった葉の輪郭形状解析のまとめ
 
 ## 葉の輪郭形状解析
