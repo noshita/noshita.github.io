@@ -1,6 +1,6 @@
 Title: Notes
 Date: 2015-09-20 0:00
-Modified: 2015-09-20 0:00
+Modified: 2015-11-05 0:00
 Tags: 研究
 Slug: notes
 Authors: Koji NOSHITA
@@ -15,3 +15,7 @@ SageとMathematicaで色々な計算をやってみた記録．
 ## [Computational Biology]({filename}/pages/compbio/compbio.md)
 生物学のトピックを主に計算機を使って解析する．
 
+<!--
+## [Datasets]({filename}/pages/datasets.md)
+様々なデータセットのリストや覚書．
+-->
