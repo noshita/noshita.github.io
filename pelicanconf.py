@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Koji NOSHITA'
 SITENAME = 'Koji NOSHITA'
-SITEURL = ''
+SITEURL = 'koji.noshita.net'
 
 PATH = 'content'
 
@@ -84,10 +84,10 @@ TAG_CLOUD_MAX_ITEMS = 10
 TAG_CLOUD_SORTING = 'size' 
 
 # Logo
-SITELOGO = 'images/site_logo_sq.png'
+SITELOGO = 'images/site_logo_favi.png'
 SITELOGO_SIZE = 30
 HIDE_SITENAME = True
-FAVICON = 'images/site_logo_sq.png'
+FAVICON = 'images/site_logo_favi.png'
 
 # About Me
 ABOUT_ME = '<p>生物やその構造物の「かたち」を理論的に研究しています．</p>'
