@@ -20,7 +20,7 @@ Status: draft
 
 ## 「かたち」とは何か？
 
-
+![test]({filename}/materials/test/test.png)
 
 ## 幾何学的形態測定学における二つの流派
 

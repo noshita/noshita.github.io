@@ -1,16 +1,29 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import locale
 
 AUTHOR = 'Koji NOSHITA'
 SITENAME = 'Koji NOSHITA'
-SITEURL = 'koji.noshita.net'
+SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Asia/Tokyo'
 
-DEFAULT_LANG = 'ja'
+# Locale
+DATE_FORMATS = {
+    'en': '%a, %d %b %Y',
+    'jp': '%Y年%m月%d日(%a)',
+}
+
+LOCALE = ('usa', 'jpn',  # On Windows
+    'en_US', 'ja_JP'     # On Unix/Linux
+    )
+
+DEFAULT_LANG = 'en'
+
+
 
 RELATIVE_URLS = True
 
@@ -29,7 +42,7 @@ MENUITEMS = [
 			("Publications", "/pages/publications.html"),
 			("Profile", "/pages/profile.html"),
 			("Notes", ["/pages/notes.html", ("Morphometrics", "/pages/morphometrics.html"),("S&M", "/pages/sandm.html"),("Computational Biology", "/pages/compbio.html")]),
-			("Blog", "/category/blog/index.html")
+			("Blog", "/tag/blog/index.html")
 			]
 
 # Blogroll
@@ -44,16 +57,18 @@ SOCIAL = (('Github', 'https://github.com/noshita'),
 		# ('Mail', 'mailto:noshita@morphometrics.jp','envelope'),)
 
 # Formatting for URLs
-ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
-ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
+ARTICLE_URL = "posts/{slug}.html"
+ARTICLE_SAVE_AS = "posts/{slug}.html"
 
-DISPLAY_CATEGORIES_ON_SIDEBAR = False
+DISPLAY_CATEGORIES_ON_SIDEBAR = True
 CATEGORY_URL = "category/{slug}/"
-CATEGORY_SAVE_AS = "category/{slug}/index.html"
+CATEGORY_SAVE_AS = "category/{slug}.html"
 
-DISPLAY_TAGS_ON_SIDEBAR = True
+DISPLAY_TAGS_ON_SIDEBAR = False
 TAGS_URL = 'tags/{slug}/'
 TAG_SAVE_AS = "tag/{slug}.html"
+
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
 
 DEFAULT_PAGINATION = 10
 
@@ -95,4 +110,4 @@ AVATAR = '/images/site_logo_sq.png'
 
 # Custamize
 ACTIVITIES_SLUG = 'activities'
-NEWS_TAG = 'news'
+NEWS_CATEGORY = ['news','events']
