@@ -1,5 +1,5 @@
 {
-	"postsPath":"../content/posts/",
-	"idDigitNoMin":5,
-	"ignores":[]
+	"postsPath": "../content/posts/",
+	"target": "[\\w-]+\\.(rst|md)$",
+	"ignore": "^$"
 }
