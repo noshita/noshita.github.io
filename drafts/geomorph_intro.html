@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Archives - Koji NOSHITA</title>
+    <title>幾何学的形態測定学における二つの流派（１）：幾何学的形態測定学って何？ - Koji NOSHITA</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,15 +10,22 @@
 
     <link href="http://noshita.github.io/images/site_logo_favi.png" rel="icon">
 
+<link rel="canonical" href="http://noshita.github.io/drafts/geomorph_intro.html">
 
         <meta name="author" content="Koji NOSHITA" />
+        <meta name="keywords" content="morphometrics,geometric morphometrics,landmark" />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="Koji NOSHITA" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Koji NOSHITA"/>
-        <meta property="og:url" content="http://noshita.github.io"/>
-        <meta property="og:description" content="Koji NOSHITA"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="幾何学的形態測定学における二つの流派（１）：幾何学的形態測定学って何？"/>
+        <meta property="og:url" content="http://noshita.github.io/drafts/geomorph_intro.html"/>
+        <meta property="og:description" content=""/>
+        <meta property="article:published_time" content="2015-09-03" />
+            <meta property="article:section" content="Science" />
+            <meta property="article:tag" content="morphometrics" />
+            <meta property="article:tag" content="geometric morphometrics" />
+            <meta property="article:tag" content="landmark" />
+            <meta property="article:author" content="Koji NOSHITA" />
 
 
     <!-- Bootstrap -->
@@ -34,6 +41,8 @@
 
 
 
+        <link href="http://noshita.github.io/feeds/science.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Koji NOSHITA Science ATOM Feed"/>
 
     <!-- Nested Navibar -->
         <link rel="stylesheet" href="http://noshita.github.io/theme/css/nestednavimenu.css" type="text/css"/>
@@ -88,14 +97,93 @@
     <div class="row">
         <div class="col-sm-9">
     <section id="content">
-        <h1>Archives for Koji NOSHITA</h1>
-        <div id="archives">
-                <p>
-                    <span class="categories-timestamp"><time datetime="2015-08-06T01:00:00+09:00">Thu, 06 Aug 2015</time></span>
-                    <a href="http://noshita.github.io/posts/00001.html">引っ越しました</a>
-                </p>
-        </div>
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://noshita.github.io/drafts/geomorph_intro.html"
+                       rel="bookmark"
+                       title="Permalink to 幾何学的形態測定学における二つの流派（１）：幾何学的形態測定学って何？">
+                        幾何学的形態測定学における二つの流派（１）：幾何学的形態測定学って何？
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-09-03T00:00:00+09:00"> Thu, 03 Sep 2015</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="http://noshita.github.io/tag/morphometrics.html">morphometrics</a>
+        /
+	<a href="http://noshita.github.io/tag/geometric-morphometrics.html">geometric morphometrics</a>
+        /
+	<a href="http://noshita.github.io/tag/landmark.html">landmark</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h2>幾何学的な形態測定学ってどうゆうこと？</h2>
+<p>ヒトは対象のかたちを測ろうとしてきた．
+形態測定学とはかたちを測ろうとするツールや理論の集合体だ．
+その萌芽は古代ローマあたりに遡れるのだろうが，ここではそういう歴史的経緯については触れない．
+では，幾何学的とはどうゆうことだろうか．</p>
+<p>幾何学的形態測定学（geometric morphometrics）における，幾何学的とは</p>
+<p>前置きはこれぐらいにして，まずはじめに「かたちを測る」ってどういうことなのかを考えたい．
+そもそも「かたち」ってなんだろう？</p>
+<h2>「かたち」とは何か？</h2>
+<p><img alt="test" src="http://noshita.github.io/materials/test/test.png" /></p>
+<h2>幾何学的形態測定学における二つの流派</h2>
+<p>幾何学的形態測定学（geometric morphometics）には大きく分けると二つの流派が存在する．
+一部では宗教戦争の様相を呈しているが，概ね興味の対象となる構造に応じて使い分けられている．
+それぞれ，</p>
+<ul>
+<li>標識点に基づく（landmark-based）手法</li>
+<li>輪郭に基づく（outline-based）手法</li>
+</ul>
+<p>と呼ばれている．
+今回は，それぞれのコンセプトを簡単に説明しよう．</p>
+            </div>
+            <!-- /.entry-content -->
+    <hr/>
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'kojinoshita'; // required: replace example with your forum shortname
+
+                    var disqus_identifier = 'geomorph_intro';
+                var disqus_url = 'http://noshita.github.io/drafts/geomorph_intro.html';
+
+            var disqus_config = function () {
+                this.language = "en";
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
     </section>
+        </article>
+    </section>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
