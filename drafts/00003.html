@@ -151,12 +151,12 @@
         indent = (screen.width < 768) ? "0em" : indent;
         linebreak = (screen.width < 768) ? 'true' : linebreak;
     }
-    
+
     var mathjaxscript = document.createElement('script');
     var location_protocol = (false) ? 'https' : document.location.protocol;
     if (location_protocol !== 'http' && location_protocol !== 'https') location_protocol = 'https:';
     <a href="http://mathjaxscript.id">mathjaxscript.id</a> = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript'; 
+    mathjaxscript.type = 'text/javascript';
     mathjaxscript.src = location_protocol + '//<a href="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';">cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';</a>
     mathjaxscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
@@ -167,6 +167,7 @@
         "    displayAlign: '"+ align +"'," +
         "    displayIndent: '"+ indent +"'," +
         "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
         "    tex2jax: { " +
         "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
         "        displayMath: [ ['$$','$$'] ]," +
