@@ -42,7 +42,7 @@ MENUITEMS = [
 			("Publications", "/pages/publications.html"),
 			("Profile", "/pages/profile.html"),
 			("Notes", ["/pages/notes.html", ("Morphometrics", "/pages/morphometrics.html"),("S&M", "/pages/sandm.html"),("Computational Biology", "/pages/compbio.html")]),
-			("Blog", "/tag/blog/index.html")
+			("Blog", "/tag/blog.html")
 			]
 
 # Blogroll
@@ -88,12 +88,18 @@ import sys, os
 MyEXTENSION_PATH = os.path.dirname(os.path.abspath(__file__)) + "/extensions"
 sys.path.append(MyEXTENSION_PATH)
 bibtex_ROOTPATH = os.path.dirname(os.path.abspath(__file__)) + "/content"
+# print(bibtex_ROOTPATH)
 bibtex = "bibtex(root="+bibtex_ROOTPATH+")"
-MD_EXTENSIONS = ['linkify', 'del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 'tables', 'meta', 'footnotes', bibtex, 'myextension']
+# Caution: To add bibtex into MD_EXTENSIONS, we need to write bibtex NOT 'bibtex'.
+# 	Because new BibtexExtension class called if use 'bibtex' instead of bibtex.
+MD_EXTENSIONS = ['del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 'tables', 'meta', 'footnotes', bibtex, 'myextension']
+# MD_EXTENSIONS = ['linkify', 'del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 'tables', 'meta', 'footnotes']
 
 # Mathematical Eqs.
-PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['render_math','tag_cloud']
+# Caution: if 'render_math' plugin is enable, you must not use linkify.
+# 	Because the linkify decorates domain-like strings with <a href= ></a> tags.
+PLUGIN_PATHS = [os.path.dirname(os.path.abspath(__file__)) +'/pelican-plugins']
+PLUGINS = ['tag_cloud', 'render_math']
 # ALWAYS_MODIFIED = True
 TAG_CLOUD_MAX_ITEMS = 10
 TAG_CLOUD_SORTING = 'size' 

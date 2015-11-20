@@ -2,12 +2,15 @@ Title: ニュースのテスト
 Date: 2014-01-04 22:00
 Category: Blog
 Tags: pelican, python, news
-Slug: news
+Slug: 00003
 Author: Koji NOSHITA
 Summary: 記事の要約です。
 Status:draft
 
 # ニュースのテスト
+
+
+$\LaTeX$
 
 - SyntaxHighlitだってバッチリ！
 
