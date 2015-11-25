@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Tags - Koji NOSHITA</title>
+    <title>Search - Koji NOSHITA
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -87,59 +88,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="tags">
-        <h1>Tags for Koji NOSHITA</h1>
-        <div class="panel-group" id="accordion">            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-blog">blog <span class="badge pull-right">1</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-blog" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2015-08-06T01:00:00+09:00">Thu, 06 Aug 2015</time></span> <a href="http://noshita.github.io/posts/00001.html">引っ越しました</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-news">news <span class="badge pull-right">1</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-news" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2015-08-06T01:00:00+09:00">Thu, 06 Aug 2015</time></span> <a href="http://noshita.github.io/posts/00001.html">引っ越しました</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-pelican">pelican <span class="badge pull-right">1</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-pelican" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2015-08-06T01:00:00+09:00">Thu, 06 Aug 2015</time></span> <a href="http://noshita.github.io/posts/00001.html">引っ越しました</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-web">web <span class="badge pull-right">1</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-web" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2015-08-06T01:00:00+09:00">Thu, 06 Aug 2015</time></span> <a href="http://noshita.github.io/posts/00001.html">引っ越しました</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -252,5 +201,17 @@
     </script>
     <!-- End Google Analytics Code -->
 
+    <script type="text/javascript" src="http://noshita.github.io/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="http://noshita.github.io/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'mode' : 'json',
+        'show': 10,
+        'newWindow': false,
+        'contentLocation': 'tipuesearch_content.json'
+      });
+    });
+    </script>
 </body>
 </html>
