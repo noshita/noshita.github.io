@@ -99,7 +99,11 @@ MD_EXTENSIONS = ['del_ins', 'fenced_code', 'codehilite(css_class=highlight)', 't
 # Caution: if 'render_math' plugin is enable, you must not use linkify.
 # 	Because the linkify decorates domain-like strings with <a href= ></a> tags.
 PLUGIN_PATHS = [os.path.dirname(os.path.abspath(__file__)) +'/pelican-plugins']
-PLUGINS = ['tag_cloud', 'render_math']
+PLUGINS = ['tag_cloud', 'render_math', 'tipue_search']
+# PLUGINS = ['tag_cloud', 'render_math']
+
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+
 # ALWAYS_MODIFIED = True
 TAG_CLOUD_MAX_ITEMS = 10
 TAG_CLOUD_SORTING = 'size' 
