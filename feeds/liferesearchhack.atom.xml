@@ -16,7 +16,7 @@
 &lt;p&gt;画像データそれぞれのurlを取得して，保存する．&lt;/p&gt;
 &lt;h2&gt;手順&lt;/h2&gt;
 &lt;h3&gt;特定のdataverseがもつfileの一覧を取得する&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://guides.dataverse.org/en/latest/api/index.html"&gt;dataverseのAPI&lt;/a&gt;を見ると&lt;br /&gt;
+&lt;p&gt;&lt;a href="http://guides.dataverse.org/en/latest/api/index.html"&gt;dataverseのAPI&lt;/a&gt;を見ると
 &lt;a href="http://guides.dataverse.org/en/latest/api/search.html"&gt;Search API&lt;/a&gt;があるらしいので，これに従い取得する． &lt;/p&gt;
 &lt;p&gt;とりあえずブラウザで確認したいって人は&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;https://dataverse.harvard.edu/api/search?=q=*&amp;amp;subtree=[dataverseのid]&amp;amp;type=file&amp;amp;key=[APIトークン]
@@ -24,7 +24,7 @@
 
 
 &lt;p&gt;でチェック．
-[dataverseのid]は欲しいデータをもつdatasetが含まれるdataverseのidを指定する． 
+[dataverseのid]は欲しいデータをもつdatasetが含まれるdataverseのidを指定する．&lt;br /&gt;
 idはdataverseのurlからわかる．&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;https://dataverse.harvard.edu/dataverse/[dataverseのid]
 &lt;/pre&gt;&lt;/div&gt;
