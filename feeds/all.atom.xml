@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Koji NOSHITA</title><link href="http://noshita.github.io/" rel="alternate"></link><link href="http://noshita.github.io/feeds/all.atom.xml" rel="self"></link><id>http://noshita.github.io/</id><updated>2015-11-25T19:18:01+09:00</updated><entry><title>Dataverseから画像データをまとめて取得する</title><link href="http://noshita.github.io/posts/00004.html" rel="alternate"></link><updated>2015-11-25T19:18:01+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:noshita.github.io,2015-11-25:posts/00004.html</id><summary type="html">&lt;h2&gt;問題&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://dataverse.harvard.edu/"&gt;Harvard Dataverse&lt;/a&gt;に保存されている，&lt;br /&gt;
+&lt;p&gt;&lt;a href="https://dataverse.harvard.edu/"&gt;Harvard Dataverse&lt;/a&gt;に保存されている&lt;br /&gt;
 あるdatasetから画像データを一括で保存しようとしたらサイズ制限のため &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;***.jpeg (image/jpeg) **** bytes.
 ***.jpeg (image/jpeg) skipped because the total size of the download bundle exceeded the limit of ** bytes.
