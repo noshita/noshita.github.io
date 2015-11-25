@@ -136,8 +136,8 @@
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <h2>問題</h2>
-<p><a href="https://dataverse.harvard.edu/">Harvard Dataverse</a>に保存されている， 
-あるdatasetから画像データを一括で保存しようとしたらサイズ制限のため</p>
+<p><a href="https://dataverse.harvard.edu/">Harvard Dataverse</a>に保存されている，<br />
+あるdatasetから画像データを一括で保存しようとしたらサイズ制限のため </p>
 <div class="highlight"><pre>***.jpeg (image/jpeg) **** bytes.
 ***.jpeg (image/jpeg) skipped because the total size of the download bundle exceeded the limit of ** bytes.
 ***.jpeg (image/jpeg) skipped because the total size of the download bundle exceeded the limit of ** bytes.
@@ -145,15 +145,15 @@
 </pre></div>
 
 
-<p>みたいな記述のMANIFEST.TEXを含んだzipファイルがダウンロードされる． 
-結果として，数個しか画像データがダウンロード出来ない． 
+<p>みたいな記述のMANIFEST.TEXを含んだzipファイルがダウンロードされる．<br />
+結果として，数個しか画像データがダウンロード出来ない．<br />
 手動で一個一個ファイルを落とすなんてイヤだ．</p>
 <h2>解決策</h2>
 <p>画像データそれぞれのurlを取得して，保存する．</p>
 <h2>手順</h2>
 <h3>特定のdataverseがもつfileの一覧を取得する</h3>
-<p><a href="http://guides.dataverse.org/en/latest/api/index.html">dataverseのAPI</a>を見ると 
-<a href="http://guides.dataverse.org/en/latest/api/search.html">Search API</a>があるらしいので，これに従い取得する．</p>
+<p><a href="http://guides.dataverse.org/en/latest/api/index.html">dataverseのAPI</a>を見ると<br />
+<a href="http://guides.dataverse.org/en/latest/api/search.html">Search API</a>があるらしいので，これに従い取得する． </p>
 <p>とりあえずブラウザで確認したいって人は</p>
 <div class="highlight"><pre>https://dataverse.harvard.edu/api/search?=q=*&amp;subtree=[dataverseのid]&amp;type=file&amp;key=[APIトークン]
 </pre></div>
@@ -166,21 +166,21 @@ idはdataverseのurlからわかる．</p>
 </pre></div>
 
 
-<p>[APIトークン]はHarvard Dataverseにアカウントを作ると，生成できる．</p>
-<p>参照: <a href="http://guides.dataverse.org/en/latest/user/account.html">Account Creation &amp; Management</a></p>
+<p>[APIトークン]はHarvard Dataverseにアカウントを作ると，生成できる．<br />
+参照: <a href="http://guides.dataverse.org/en/latest/user/account.html">Account Creation &amp; Management</a></p>
 <p>今回はcURLで</p>
 <div class="highlight"><pre><span class="go">curl -X GET https://dataverse.harvard.edu/api/search?=q=*\&amp;subtree=[特定のdataverseのid]\&amp;type=file\&amp;key=[APIトークン] &gt; [保存先のファイル名].json</span>
 </pre></div>
 
 
-<p>のようにしてjsonファイルとして保存する． 
+<p>のようにしてjsonファイルとして保存する．<br />
 今回はfilelist.jsonとして保存したとして話を進める．</p>
-<p>特定のdatasetがもつfileの一覧を取得できたら早いのだが，
-subtreeオプションやfqオプションでは対応できなさそう． 
+<p>特定のdatasetがもつfileの一覧を取得できたら早いのだが， 
+subtreeオプションやfqオプションでは対応できなさそう．<br />
 なので一旦全部ダウンロードしてから適当なfileだけを選び出す． </p>
 <h3>必要なfileの取捨選択</h3>
-<p>取得したjsonファイルを読み込んでフィールドの値に応じて必要なfileをフィルタリングする． 
-今回はpythonを利用した．</p>
+<p>取得したjsonファイルを読み込んでフィールドの値に応じて必要なfileをフィルタリングする．<br />
+今回はpythonを利用した． </p>
 <p>大体こんな感じ．</p>
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">re</span><span class="o">,</span><span class="nn">json</span>
 
@@ -203,10 +203,10 @@ subtreeオプションやfqオプションでは対応できなさそう．
 </pre></div>
 
 
-<p>[データセットを指定するDOI]や[fileのtype]には適切な正規表現パタンを記述する． </p>
+<p>[データセットを指定するDOI]や[fileのtype]には適切な正規表現パタンを記述する．  </p>
 <p>後でfileをダウンロードするときにファイル名を保持したいので(url,name)を値に持つリストであるtargetlistを作っている．</p>
 <h3>データのダウンロード</h3>
-<p>wgetなどを利用しても良いが，-iオプション利用時に名前を指定する方法がよくわからなかったので引き続きpythonで作業した． 
+<p>wgetなどを利用しても良いが，-iオプション利用時に名前を指定する方法がよくわからなかったので引き続きpythonで作業した．<br />
 大体こんな感じ．</p>
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">urllib.request</span>
 
@@ -223,10 +223,10 @@ subtreeオプションやfqオプションでは対応できなさそう．
 
 
 <h2>今後の課題</h2>
-<p>以上のように，pythonを使うと簡単にDataverseのデータを割と簡単にできた． 
-しかし，pythonを使うにしてもホントはもっとdataverseのapiを駆使してシンプルに操作すべきだと思う． 
-Search APIのfqオプションの働きとかよくわからないし，例に上がっていたfq=publication_date_s:2015すらうまく機能しなかった． </p>
-<p>また<a href="guides.dataverse.org/en/latest/api/dataaccess.html">Data Access API</a>も存在するので 
+<p>以上のように，pythonを使うと簡単にDataverseのデータを割と簡単にできた．<br />
+しかし，pythonを使うにしてもホントはもっとdataverseのapiを駆使してシンプルに操作すべきだと思う．<br />
+Search APIのfqオプションの働きとかよくわからないし，例に上がっていたfq=publication_date_s:2015すらうまく機能しなかった．  </p>
+<p>また<a href="guides.dataverse.org/en/latest/api/dataaccess.html">Data Access API</a>も存在するので<br />
 もう少し賢くダウンロード出来たかもしれない．</p>
 <ul>
 <li>dataverseのAPI<ul>
