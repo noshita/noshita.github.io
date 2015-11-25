@@ -152,8 +152,8 @@
 <p>画像データそれぞれのurlを取得して，保存する．</p>
 <h2>手順</h2>
 <h3>特定のdataverseがもつfileの一覧を取得する</h3>
-<p>(dataverseのAPI)[http://guides.dataverse.org/en/latest/api/index.html]を見ると
-(Search API)[http://guides.dataverse.org/en/latest/api/search.html]があるらしいので，これに従い取得する．</p>
+<p><a href="http://guides.dataverse.org/en/latest/api/index.html">dataverseのAPI</a>を見ると
+<a href="http://guides.dataverse.org/en/latest/api/search.html">Search API</a>があるらしいので，これに従い取得する．</p>
 <p>とりあえずブラウザで確認したいって人は</p>
 <div class="highlight"><pre>https://dataverse.harvard.edu/api/search?=q=*&amp;subtree=[dataverseのid]&amp;type=file&amp;key=[APIトークン]
 </pre></div>
@@ -226,7 +226,7 @@ subtreeオプションやfqオプションでは対応できなさそう．
 <p>以上のように，pythonを使うと簡単にDataverseのデータを割と簡単にできた．
 しかし，pythonを使うにしてもホントはもっとdataverseのapiを駆使してシンプルに操作すべきだと思う．
 Search APIのfqオプションの働きとかよくわからないし，例に上がっていたfq=publication_date_s:2015すらうまく機能しなかった．</p>
-<p>また(Data Access API)[guides.dataverse.org/en/latest/api/dataaccess.html]も存在するので
+<p>また<a href="guides.dataverse.org/en/latest/api/dataaccess.html">Data Access API</a>も存在するので
 もう少し賢くダウンロード出来たかもしれない．</p>
 <ul>
 <li>dataverseのAPI<ul>
