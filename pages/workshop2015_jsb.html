@@ -99,22 +99,66 @@
         
         <div class="entry-content">
             <h2>葉の輪郭形状解析</h2>
-<p><a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>を例に，葉の輪郭形状解析からどのような生物学的・農学的知見が明らかにできるかを解説します．</p>
+<p><a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>例に，葉の輪郭形状解析からどのような生物学的・農学的知見が明らかにできるかを紹介しました．<br />
+また輪郭形状解析によく用いられる楕円フーリエ解析をFijiとRを利用しておこなう手順を例示しました．<br />
+ここでは，FijiとRを利用した楕円フーリエ解析の流れをより具体的に解説します．</p>
 <h2>使うツールやデータ</h2>
 <h3><a href="http://fiji.sc/Fiji">Fiji</a></h3>
-<p><a href="http://imagej.nih.gov/ij/">ImageJ</a>の生命科学系プラグインのバンドル版．</p>
-<h4>インストール</h4>
-<h3>R</h3>
-<h3>データ</h3>
-<p>ワークショップではChitwood LabのWebページで公開しているトマトの野生種の画像データベースのサンプルを利用しました．
-本データは<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の解析に実際に用いられたデータセットです．
-しかし，著作権の関係でここにそれらデータを転載することはしない．
-興味がある方は<a href="http://www.chitwoodlab.org/">Chitwood Lab</a>のDatabaseのページを参照して下さい．</p>
-<p>代わりに，ここでは<a class="citation" data-key="Chitwood2015np" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2015np">(<b>??</b>)</a>と<a class="citation" data-key="Chiwood2015" data-locator="" data-modifier="" data-prefix="" href="#Chiwood2015">(<b>??</b>)</a>のブドウの野生種の葉の画像データを用い，同様の解析をおこないます．
-<u>そのため結果として出てくる図は<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の知見とは一致しません．</u></p>
-<h2>楕円フーリエ解析</h2>
-<h3>楕円フーリエ解析でできること</h3>
-<p>「左右成分」の分離は<a class="citation" data-key="Iwata1998" data-locator="" data-modifier="" data-prefix="" href="#Iwata1998">(Iwata et al. 1998)</a>を参照．</p>
+<p><a href="http://imagej.nih.gov/ij/">ImageJ</a>の生命科学系プラグインのバンドル版．
+今回は</p>
+<ul>
+<li>領域分割</li>
+<li>二値化</li>
+<li>エッヂ検出</li>
+</ul>
+<p>に用います．</p>
+<p>参考: </p>
+<ul>
+<li>インストール方法（<a href="http://fiji.sc/Installation">Installation</a>）  </li>
+<li>基本的な使い方（<a href="http://fiji.sc/Category:Tutorials">Tutorials</a>）<ul>
+<li><a href="http://fiji.sc/Getting_started">Getting started</a></li>
+<li><a href="http://fiji.sc/Image_Processing_Principles">Image Processing Principles</a></li>
+<li><a href="http://fiji.sc/Cookbook">Cookbook</a></li>
+<li><a href="http://fiji.sc/Using_the_Script_Editor">Using the Script Editor</a></li>
+</ul>
+</li>
+<li>様々なプラグイン（<a href="http://fiji.sc/Category:Plugins">Plugins</a>）</li>
+</ul>
+<h3><a href="https://www.r-project.org/">R</a></h3>
+<p>統計解析用プログラミング言語，またはその実装．
+今回ははR及びそのパッケージの<a href="https://github.com/vbonhomme/Momocs/">Momocs</a>を用いて，</p>
+<ul>
+<li>エッヂ検出</li>
+<li>楕円フーリエ解析</li>
+<li>主成分分析</li>
+<li>形態の再構築</li>
+</ul>
+<p>をおこないます．</p>
+<h4><a href="https://github.com/vbonhomme/Momocs/">Momocs</a></h4>
+<p>主に輪郭形状解析を目的としたRのパッケージ．<br />
+現在も開発中ですので，開発者のGitHubレポジトリから最新版をインストールします．<br />
+GitHubからのインストールにはdevtools(<a href="https://github.com/hadley/devtools">GitHub</a>,<a href="https://cran.r-project.org/web/packages/devtools/index.html">CRAN</a>)を利用しますので，</p>
+<ul>
+<li>Windowsでは<a href="https://cran.r-project.org/bin/windows/Rtools/">Rtools</a></li>
+<li>Macでは<a href="https://developer.apple.com/jp/xcode/downloads/">Xcode</a></li>
+<li>Linuxでは各種コンパイラやライブラリ</li>
+</ul>
+<p>がそれぞれ必要となります．</p>
+<p>以下では，WindowsとMacでのMomocsのインストールまでの手順を説明します．<br />
+Linuxの方は各自頑張れると思います．</p>
+<h5>Windows</h5>
+<h5>Mac</h5>
+<h3>サンプルデータ</h3>
+<p>ワークショップではChitwood LabのWebページで公開しているトマトの野生種の画像データベースのサンプルを利用しました．<br />
+これらのデータは<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の解析に実際に用いられたデータセットです．<br />
+しかし，著作権的な問題のため，ここにそれらデータを転載することはしません．<br />
+興味がある方は<a href="http://www.chitwoodlab.org/">Chitwood Lab</a>の<a href="http://www.chitwoodlab.org/#!wild-relatives-of-tomato/c1o7b">Wild relatives of tomato | Database</a>を参照して下さい．</p>
+<p>代わりに，ここではと<a class="citation" data-key="Chitwood2015" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2015">(Chitwood et al. 2015)</a>のブドウの野生種の葉の画像データの一部を楕円フーリエ解析の具体的な手順の説明に用います．
+<!-- **そのため結果として出てくる図は<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の知見とは一致しません．**  -->
+データは<a href="https://dataverse.harvard.edu/">Harverd Dataverse</a>にて公開されています．</p>
+<ul>
+<li><a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KOG6SY">Climate and developmental plasticity: interannual variability in grapevine leaf morphology</a></li>
+</ul>
 <h2>解析手順</h2>
 <p>画像をFijiに読み込み解析を開始しよう．</p>
 <h3>領域分割（Fiji）</h3>
@@ -128,11 +172,21 @@
 <h3>楕円フーリエ解析（Momocs）</h3>
 <h3>主成分分析（Momocs）</h3>
 <h3>形状の再構築（Momocs）</h3>
+<!--
+## @(Chitwood2012)における形状解析の再現
+繰り返しになりますが，ここでは@(Chitwood2015a)と@(Chitwood2015)のブドウの野生種の葉の画像データを用い，@(Chitwood2012)と同様の解析をおこないます．  
+**そのため結果として出てくる図は@(Chitwood2012)の知見とは一致しません．**
+あくまで解析のデモと考えて下さい．
+
+### 楕円フーリエ解析による左右成分の分離
+「左右成分」の分離の詳細は@(Iwata1998)を参照．
+-->
+
 <h2>参考文献</h2>
 <p>
 <ul class="citation-references">
 <li class="citation-item" id="Chitwood2012">(Chitwood et al. 2012), Chitwood, D. H. et al., <em>The Developmental Trajectory of Leaflet Morphology in Wild Tomato Species</em>, <strong>158</strong>(3), 1230–1240.</li>
-<li class="citation-item" id="Iwata1998">(Iwata et al. 1998), Iwata, Hiroyoshi et al., <em>Evaluation of variation of root shape of Japanese radish (Raphanus sativus L.) based on image analysis using elliptic Fourier descriptors</em>, Euphytica, <strong>102</strong>(2), 143–149, <code><a href="http://link.springer.com/10.1023/A:1018392531226">http://link.springer.com/10.1023/A:1018392531226</a></code>.</li>
+<li class="citation-item" id="Chitwood2015">(Chitwood et al. 2015), Chitwood, Daniel H et al., <em>Climate and developmental plasticity : interannual variability in grapevine leaf morphology To whom correspondence should be addressed</em>(314).</li>
 </ul>
 </p>
 <h2>リンク</h2>
