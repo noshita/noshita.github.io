@@ -104,7 +104,13 @@ Linuxの方は各自頑張れると思います．
 #### 1. 領域分割
 
 Fijiには幾つかの領域分割のためプラグインが導入されています．．  
-ここでは，もっと単純な　と　によるLevel Setsによる領域分割を紹介します．
+ここでは，もっと単純な閾値による分割，インタラクティブなGraph Cutによる分割とLevel Setによる分割を紹介します．
+
+##### 1.1 閾値
+
+##### 1.2 Graph Cut
+
+##### 1.3 Level Set
 
 
 
@@ -114,6 +120,7 @@ Fijiには幾つかの領域分割のためプラグインが導入されてい�
 #### 2. 二値化
 
 
+
 #### 3. エッヂ検出
 
 ### Rでの輪郭形状解析と統計処理
@@ -121,6 +128,38 @@ Fijiには幾つかの領域分割のためプラグインが導入されてい�
 #### 1. エッヂ検出
 
 #### 2. 楕円フーリエ解析
+
+```rconsole
+# Momocsの準備
+>> devtools::install_github("vbonhomme/Momocs", build_vignettes=TRUE)
+>> library(Momocs)
+
+# ファイルの読み込み
+lf <- list.files('/Users/Noshita/ownCloud/講義計画/morphometrics_WS_JSB/data/Noshita/croped', full.names=TRUE)
+cooList <- import_jpg(lf)
+coo <- Out(cooList)
+
+#図を重ねて表示
+stack(coo)
+
+# フーリエ係数の計算
+cooA <- coo_align(coo)
+efList <- list(1:10)
+efiList <- list(1:10)
+#ef <- efourier(cooA[1],40,norm=TRUE)
+#efi <- efourier_i(ef,40)
+#coo_plot(efi)
+x = 0
+for (i in 1:10) {
+	x <- x+1
+	ef <- efourier(cooA[x],40,norm=T)
+	efList[[x]] <- ef
+	efi <- efourier_i(ef,40)
+	efiList[[x]] <- efi
+}
+
+stack(Out(efiList))
+```
 
 #### 3. 主成分分析
 
