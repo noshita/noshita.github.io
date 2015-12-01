@@ -61,11 +61,11 @@ ARTICLE_URL = "posts/{slug}.html"
 ARTICLE_SAVE_AS = "posts/{slug}.html"
 
 DISPLAY_CATEGORIES_ON_SIDEBAR = True
-CATEGORY_URL = "category/{slug}/"
+CATEGORY_URL = "category/{slug}.html"
 CATEGORY_SAVE_AS = "category/{slug}.html"
 
 DISPLAY_TAGS_ON_SIDEBAR = False
-TAGS_URL = 'tags/{slug}/'
+TAGS_URL = 'tags/{slug}.html'
 TAG_SAVE_AS = "tag/{slug}.html"
 
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
@@ -121,3 +121,10 @@ AVATAR = '/images/site_logo_sq.png'
 # Custamize
 ACTIVITIES_SLUG = 'activities'
 NEWS_CATEGORY = ['news','events']
+
+
+# Static
+STATIC_PATHS = ['images', 'materials', 'extras/CNAME', 'extras/custom.css']
+EXTRA_PATH_METADATA = {'extras/CNAME': {'path': 'CNAME'},'extras/custom.css': {'path': 'static/custom.css'},}
+
+CUSTOM_CSS = 'static/custom.css'

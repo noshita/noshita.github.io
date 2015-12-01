@@ -60,7 +60,7 @@ class IdCounter(object):
 	# 一番利用する
 	# 利用後はcountかrecountAllを実行
 	def getNextID(self):
-		print(type(self.idInfo["max"]))
+		# print(type(self.idInfo["max"]))
 		return self.idInfo["max"] + 1
 
 	def _setPostList(self, path):
