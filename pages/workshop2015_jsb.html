@@ -100,7 +100,7 @@
         <div class="entry-content">
             <h2>葉の輪郭形状解析</h2>
 <p><a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>例に，葉の輪郭形状解析からどのような生物学的・農学的知見が明らかにできるかを紹介しました．<br />
-また輪郭形状解析によく用いられる楕円フーリエ解析をFijiとRを利用しておこなう手順を例示しました．<br />
+また，輪郭形状解析によく用いられる楕円フーリエ解析をFijiとRを利用しておこなう手順を例示しました．<br />
 ここでは，FijiとRを利用した楕円フーリエ解析の流れをより具体的に解説します．</p>
 <h2>使うツールやデータ</h2>
 <h3><a href="http://fiji.sc/Fiji">Fiji</a></h3>
@@ -153,25 +153,59 @@ Linuxの方は各自頑張れると思います．</p>
 これらのデータは<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の解析に実際に用いられたデータセットです．<br />
 しかし，著作権的な問題のため，ここにそれらデータを転載することはしません．<br />
 興味がある方は<a href="http://www.chitwoodlab.org/">Chitwood Lab</a>の<a href="http://www.chitwoodlab.org/#!wild-relatives-of-tomato/c1o7b">Wild relatives of tomato | Database</a>を参照して下さい．</p>
-<p>代わりに，ここではと<a class="citation" data-key="Chitwood2015" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2015">(Chitwood et al. 2015)</a>のブドウの野生種の葉の画像データの一部を楕円フーリエ解析の具体的な手順の説明に用います．
+<p>代わりに，ここでは<a class="citation" data-key="Chitwood2015" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2015">(Chitwood et al. 2015)</a>のブドウの野生種の葉の画像データの一部を楕円フーリエ解析の具体的な手順の説明に用います．
 <!-- **そのため結果として出てくる図は<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の知見とは一致しません．**  -->
-データは<a href="https://dataverse.harvard.edu/">Harverd Dataverse</a>にて公開されています．</p>
+データは<a href="https://dataverse.harvard.edu/">Harverd Dataverse</a>にて<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>で公開されています．</p>
 <ul>
 <li><a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KOG6SY">Climate and developmental plasticity: interannual variability in grapevine leaf morphology</a></li>
 </ul>
+<p>ここでは，このデータセットから10枚の葉の画像を抜き出したサンプルデータを利用します．</p>
 <h2>解析手順</h2>
-<p>画像をFijiに読み込み解析を開始しよう．</p>
-<h3>領域分割（Fiji）</h3>
-<p>Fijiには幾つかの領域分割のための機能がある．
-もっと単純な　と　によるLevel Setsによる領域分割を紹介する．</p>
-<p>これらの他にもFijiには領域分割のためのプラグインが複数ある．
-「Plugin」→「Segmentation」で利用できるので試してみて欲しい．</p>
-<h3>二値化（Fiji）</h3>
-<h3>エッヂ検出（Fiji）</h3>
-<h3>エッヂ検出（Momocs）</h3>
-<h3>楕円フーリエ解析（Momocs）</h3>
-<h3>主成分分析（Momocs）</h3>
-<h3>形状の再構築（Momocs）</h3>
+<h3>準備</h3>
+<p>サンプルデータとコード一式は<a href="">こちら</a>からダウンロードできます．
+これを解凍し，作業ディレクトリとします．
+作業ディレクトリは，このような構成になっていると想定します．</p>
+<ul>
+<li>wsJBS2015Aut<ul>
+<li>data<ul>
+<li>image001.jpg</li>
+<li>image002.jpg</li>
+<li>...</li>
+</ul>
+</li>
+<li>fijiSample.ijm</li>
+<li>rSample.r</li>
+</ul>
+</li>
+</ul>
+<p>作業ディレクトリの構成を維持しておけば，作業ディレクトリ自体はどこに配置しても構いません．</p>
+<h3>Fijiでの前処理</h3>
+<p>画像をFijiに読み込み解析を開始します．<br />
+画像の取り込みはドラッグ&amp;ドロップまたは「File」→「Open...」を選択し行います．</p>
+<h4>1. 領域分割</h4>
+<p>Fijiには幾つかの領域分割のためプラグインが導入されています．．<br />
+ここでは，もっと単純な　と　によるLevel Setsによる領域分割を紹介します．</p>
+<p>これらの他にもFijiには領域分割のためのプラグインが複数あります．
+「Plugin」→「Segmentation」で利用できるので試してみて下さい．</p>
+<h4>2. 二値化</h4>
+<h4>3. エッヂ検出</h4>
+<h3>Rでの輪郭形状解析と統計処理</h3>
+<h4>1. エッヂ検出</h4>
+<h4>2. 楕円フーリエ解析</h4>
+<h4>3. 主成分分析</h4>
+<h4>4. 形状の再構築</h4>
+<h2>もう少し踏み込んだ解析</h2>
+<p><strong> 本節は加筆中です．しばらくお待ち下さい．</strong></p>
+<p>楕円フーリエ解析で輪郭形状を定量化・再構築できることがわかりました．<br />
+しかし，それだけで科学的に面白い知見が得られる訳ではありません．<br />
+<!-- 例えば，<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>では-->
+以下では，幾つかのもう少し踏み込んだ解析例を紹介します．</p>
+<h3>輪郭形状の左右成分の分離</h3>
+<p>詳細は<a class="citation" data-key="Iwata1998" data-locator="" data-modifier="" data-prefix="" href="#Iwata1998">(Iwata et al. 1998)</a>を参照．</p>
+<h3>種間での輪郭形状差の検出</h3>
+<h3>左右・遠位-近位での輪郭形状差の検出</h3>
+<h3>成長に伴う輪郭形状の変化</h3>
+<h3>GWASやGSへの応用</h3>
 <!--
 ## @(Chitwood2012)における形状解析の再現
 繰り返しになりますが，ここでは@(Chitwood2015a)と@(Chitwood2015)のブドウの野生種の葉の画像データを用い，@(Chitwood2012)と同様の解析をおこないます．  
@@ -187,6 +221,7 @@ Linuxの方は各自頑張れると思います．</p>
 <ul class="citation-references">
 <li class="citation-item" id="Chitwood2012">(Chitwood et al. 2012), Chitwood, D. H. et al., <em>The Developmental Trajectory of Leaflet Morphology in Wild Tomato Species</em>, <strong>158</strong>(3), 1230–1240.</li>
 <li class="citation-item" id="Chitwood2015">(Chitwood et al. 2015), Chitwood, Daniel H et al., <em>Climate and developmental plasticity : interannual variability in grapevine leaf morphology To whom correspondence should be addressed</em>(314).</li>
+<li class="citation-item" id="Iwata1998">(Iwata et al. 1998), Iwata, Hiroyoshi et al., <em>Evaluation of variation of root shape of Japanese radish (Raphanus sativus L.) based on image analysis using elliptic Fourier descriptors</em>, Euphytica, <strong>102</strong>(2), 143–149, <code><a href="http://link.springer.com/10.1023/A:1018392531226">http://link.springer.com/10.1023/A:1018392531226</a></code>.</li>
 </ul>
 </p>
 <h2>リンク</h2>
