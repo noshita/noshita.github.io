@@ -184,7 +184,10 @@ Linuxの方は各自頑張れると思います．</p>
 画像の取り込みはドラッグ&amp;ドロップまたは「File」→「Open...」を選択し行います．</p>
 <h4>1. 領域分割</h4>
 <p>Fijiには幾つかの領域分割のためプラグインが導入されています．．<br />
-ここでは，もっと単純な　と　によるLevel Setsによる領域分割を紹介します．</p>
+ここでは，もっと単純な閾値による分割，インタラクティブなGraph Cutによる分割とLevel Setによる分割を紹介します．</p>
+<h5>1.1 閾値</h5>
+<h5>1.2 Graph Cut</h5>
+<h5>1.3 Level Set</h5>
 <p>これらの他にもFijiには領域分割のためのプラグインが複数あります．
 「Plugin」→「Segmentation」で利用できるので試してみて下さい．</p>
 <h4>2. 二値化</h4>
@@ -192,6 +195,38 @@ Linuxの方は各自頑張れると思います．</p>
 <h3>Rでの輪郭形状解析と統計処理</h3>
 <h4>1. エッヂ検出</h4>
 <h4>2. 楕円フーリエ解析</h4>
+<div class="highlight"><pre><span class="go"># Momocsの準備</span>
+<span class="gp">&gt;&gt;</span> devtools<span class="o">::</span>install_github<span class="p">(</span><span class="s">&quot;vbonhomme/Momocs&quot;</span><span class="p">,</span> build_vignettes<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
+<span class="gp">&gt;&gt;</span> <span class="kn">library</span><span class="p">(</span>Momocs<span class="p">)</span>
+
+<span class="go"># ファイルの読み込み</span>
+<span class="go">lf &lt;- list.files(&#39;/Users/Noshita/ownCloud/講義計画/morphometrics_WS_JSB/data/Noshita/croped&#39;, full.names=TRUE)</span>
+<span class="go">cooList &lt;- import_jpg(lf)</span>
+<span class="go">coo &lt;- Out(cooList)</span>
+
+<span class="go">#図を重ねて表示</span>
+<span class="go">stack(coo)</span>
+
+<span class="go"># フーリエ係数の計算</span>
+<span class="go">cooA &lt;- coo_align(coo)</span>
+<span class="go">efList &lt;- list(1:10)</span>
+<span class="go">efiList &lt;- list(1:10)</span>
+<span class="go">#ef &lt;- efourier(cooA[1],40,norm=TRUE)</span>
+<span class="go">#efi &lt;- efourier_i(ef,40)</span>
+<span class="go">#coo_plot(efi)</span>
+<span class="go">x = 0</span>
+<span class="go">for (i in 1:10) {</span>
+<span class="go">    x &lt;- x+1</span>
+<span class="go">    ef &lt;- efourier(cooA[x],40,norm=T)</span>
+<span class="go">    efList[[x]] &lt;- ef</span>
+<span class="go">    efi &lt;- efourier_i(ef,40)</span>
+<span class="go">    efiList[[x]] &lt;- efi</span>
+<span class="go">}</span>
+
+<span class="go">stack(Out(efiList))</span>
+</pre></div>
+
+
 <h4>3. 主成分分析</h4>
 <h4>4. 形状の再構築</h4>
 <h2>もう少し踏み込んだ解析</h2>
