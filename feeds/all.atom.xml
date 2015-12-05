@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Koji NOSHITA</title><link href="http://noshita.github.io/" rel="alternate"></link><link href="http://noshita.github.io/feeds/all.atom.xml" rel="self"></link><id>http://noshita.github.io/</id><updated>2015-12-04T12:00:00+09:00</updated><entry><title>論文が出版されました</title><link href="http://noshita.github.io/posts/00005.html" rel="alternate"></link><updated>2015-12-04T12:00:00+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:noshita.github.io,2015-12-04:posts/00005.html</id><summary type="html">&lt;h2&gt;概要&lt;/h2&gt;
-&lt;p&gt;腹足類（巻貝）の殻の形態を左右する成長の勾配パタンをCTデータから定量化する手法を開発しました．&lt;/p&gt;
+&lt;p&gt;腹足類（巻貝）の殻の形態をコントロールする殻成長の勾配パタンをCTデータから定量化する手法を開発しました．&lt;/p&gt;
 &lt;p&gt;腹足類の殻は殻口縁辺部で炭酸カルシウムの結晶を少しずつ付加しながら成長します．
 殻の“外側”が“内側”に比べ大きく成長することで，多くの腹足類では殻が巻くことになります（下図）．
-本研究では，こうして出来上がった殻が，どのような成長勾配のパタンから生じたかを定量的に検証するための解析手法を提供します．&lt;/p&gt;
+本研究は，こうして出来上がった殻が，どのような成長勾配のパタンから生じたかを定量的に検証するための解析手法を提供します．&lt;/p&gt;
 &lt;p&gt;本手法は，殻の巻きパタンと殻口の形状が成長に伴い変化する場合（ヘビガイやノタウチガイなどの“異常巻き”巻貝）にも適用できるようデザインされています．&lt;/p&gt;
-&lt;p&gt;本手法はマイクロCTスキャナーのデータ（3Dボクセルデータ）の利用します．
+&lt;p&gt;本手法はマイクロCTスキャナーのデータ（3Dボクセルデータ）の利用を想定しています．
 今後のCTデータの普及にともない活用できるケースが増えてくると考えています．&lt;/p&gt;
 &lt;p&gt;&lt;img alt="研究目的" src="http://noshita.github.io/materials/newpaperNoshitaetal2016/01.png" title="研究目的" /&gt;&lt;/p&gt;
 &lt;p&gt;本研究は，清水啓介博士（JAMSTEC）と佐々木猛智准教授（東京大学総合研究博物館）との共同研究です．&lt;/p&gt;
@@ -100,9 +100,9 @@ subtreeオプションやfqオプションでは対応できなさそう．&lt;b
 
 
 &lt;h2&gt;今後の課題&lt;/h2&gt;
-&lt;p&gt;以上のように，pythonを使うと簡単にDataverseのデータを割と簡単にできた．&lt;br /&gt;
-しかし，pythonを使うにしてもホントはもっとdataverseのapiを駆使してシンプルに操作すべきだと思う．&lt;br /&gt;
-Search APIのfqオプションの働きとかよくわからないし，例に上がっていたfq=publication_date_s:2015すらうまく機能しなかった．  &lt;/p&gt;
+&lt;p&gt;以上のように，pythonを使うとDataverseのデータを割と簡単に取得できた．&lt;br /&gt;
+しかし，ホントはもっとdataverseのapiを駆使してシンプルに操作すべきだと思う．&lt;br /&gt;
+Search APIのfqオプションの働きがよくわからず，例に上がっていたfq=publication_date_s:2015すらうまく機能しなかった．  &lt;/p&gt;
 &lt;p&gt;また&lt;a href="guides.dataverse.org/en/latest/api/dataaccess.html"&gt;Data Access API&lt;/a&gt;も存在するので&lt;br /&gt;
 もう少し賢くダウンロード出来たかもしれない．&lt;/p&gt;
 &lt;ul&gt;
