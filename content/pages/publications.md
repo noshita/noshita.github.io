@@ -9,8 +9,9 @@ Summary: 論文や発表のリスト
 
 ## 論文
 ### 査読あり
-1. __Noshita, K.__ Quantification and geometric analysis of coiling patterns in gastropod shells based on 3D and 2D image data. *Journal of Theoretical Biology* (2014) **363**, pp. 93-104.
-1.  __Noshita, K.__, Asami, T. and Ubukata, T. Functional constraints on coiling geometry and aperture inclination in gastropods. *Paleobiology* (2012) **39** (2), pp. 322–334.
+1. __Noshita, K.__, Shimizu, K., and Sasaki, T. Geometric analysis and estimation of the growth rate gradient on gastropod shells. *Journal of Theoretical Biology* (2016), **389**, pp. 11–19. [http://doi.org/10.1016/j.jtbi.2015.10.011](http://doi.org/10.1016/j.jtbi.2015.10.011)
+1. __Noshita, K.__ Quantification and geometric analysis of coiling patterns in gastropod shells based on 3D and 2D image data. *Journal of Theoretical Biology* (2014) **363**, pp. 93-104. [http://doi.org/10.1016/j.jtbi.2014.08.010](http://doi.org/10.1016/j.jtbi.2014.08.010)
+1.  __Noshita, K.__, Asami, T. and Ubukata, T. Functional constraints on coiling geometry and aperture inclination in gastropods. *Paleobiology* (2012) **39** (2), pp. 322–334. [http://dx.doi.org/10.1666/10060.1](http://dx.doi.org/10.1666/10060.1)
 
 
 

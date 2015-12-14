@@ -104,9 +104,9 @@ for item in targetlist:
 ```
 
 ## 今後の課題
-以上のように，pythonを使うと簡単にDataverseのデータを割と簡単にできた．  
-しかし，pythonを使うにしてもホントはもっとdataverseのapiを駆使してシンプルに操作すべきだと思う．  
-Search APIのfqオプションの働きとかよくわからないし，例に上がっていたfq=publication_date_s:2015すらうまく機能しなかった．  
+以上のように，pythonを使うとDataverseのデータを割と簡単に取得できた．  
+しかし，ホントはもっとdataverseのapiを駆使してシンプルに操作すべきだと思う．  
+Search APIのfqオプションの働きがよくわからず，例に上がっていたfq=publication_date_s:2015すらうまく機能しなかった．  
 
 また[Data Access API](guides.dataverse.org/en/latest/api/dataaccess.html)も存在するので  
 もう少し賢くダウンロード出来たかもしれない．
