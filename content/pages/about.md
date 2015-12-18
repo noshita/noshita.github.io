@@ -1,6 +1,6 @@
 Title: About
 Date: 2015-08-06 22:00
-Modified: 2015-09-21 3:00
+Modified: 2015-12-17 18:20:00
 Tags: 研究
 Slug: profile
 Authors: Koji NOSHITA
@@ -25,8 +25,8 @@ Summary: プロフィールです．
 * [東京大学](http://www.u-tokyo.ac.jp)  
   [農学生命科学研究科](http://www.a.u-tokyo.ac.jp/) [生産・環境生物学専攻](http://www.ab.a.u-tokyo.ac.jp/aeb/)  
   [生物測定学研究室](https://sites.google.com/a/ut-biomet.org/lbm/home)
-* Tel : 03-5841-5068  
-* Eメール：noshita at morphometrics.jp  
+* <i class="fa fa-phone"></i> 03-5841-5068  
+* <i class="fa fa-envelope"></i> noshita at morphometrics.jp  
 
 ## 経歴
 

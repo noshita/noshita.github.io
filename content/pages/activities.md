@@ -1,6 +1,6 @@
 Title: Activities
 Date: 2015-08-06 22:00
-Modified: 2015-09-18 12:00
+Modified: 2015-12-17 18:26:07
 Tags: 研究
 Slug: activities
 Authors: Koji NOSHITA
@@ -8,10 +8,11 @@ Summary: これまでとこれからの活動
 
 ## 活動
 ### これから
-* 2015.12.06-12　オーストラリアにいます．
 * 2016.03.20-24　[生態学会](http://www.esj.ne.jp/meeting/63/ "第63回日本生態学会大会@仙台")
 
 ### これまで
+* 2015.12.15　[進化古生物学セミナー（東京大学）](https://sites.google.com/site/todaisemipbio/)で発表しました．	
+* 2015.12.06-12　オーストラリアにいました．
 * 2015.10.03-14　形質調査のためメキシコにいました．
 * 2015.09.11-12　[育種学会](http://www.nacos.com/jsb/06/06gaiyou.html "第128回講演会@新潟大学")
 	* [ワークショップW05「育種学と農学のこれからを考える30 〜フェノタイピングは頭痛の種？〜」](https://sites.google.com/a/ut-biomet.org/jsb-2015autumn-workshop/)で講演しました．

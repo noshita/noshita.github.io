@@ -20,7 +20,9 @@ Summary: [Noshita et al. (2016) *Journal of Theoretical Biology*](http://doi.org
 
 ![研究目的]({filename}/materials/newpaperNoshitaetal2016/01.png "研究目的")
 
-　本研究は，清水啓介博士（JAMSTEC）と佐々木猛智准教授（東京大学総合研究博物館）との共同研究です．
+　本研究は，[清水啓介](https://sites.google.com/site/kshimizulst/)
+ 博士（JAMSTEC）と[佐々木猛智](http://www.um.u-tokyo.ac.jp/hp/sasaki/index.htm)
+准教授（東京大学総合研究博物館）との共同研究です．
 
 ## 論文情報
 
