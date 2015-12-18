@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Koji NOSHITA</title><link href="http://noshita.github.io/" rel="alternate"></link><link href="http://noshita.github.io/feeds/all.atom.xml" rel="self"></link><id>http://noshita.github.io/</id><updated>2015-12-04T12:00:00+09:00</updated><entry><title>論文が出版されました</title><link href="http://noshita.github.io/posts/00005.html" rel="alternate"></link><updated>2015-12-04T12:00:00+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:noshita.github.io,2015-12-04:posts/00005.html</id><summary type="html">&lt;h2&gt;概要&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Koji NOSHITA</title><link href="http://koji.noshita.net/" rel="alternate"></link><link href="http://koji.noshita.net/feeds/all.atom.xml" rel="self"></link><id>http://koji.noshita.net/</id><updated>2015-12-04T12:00:00+09:00</updated><entry><title>論文が出版されました</title><link href="http://koji.noshita.net/posts/00005.html" rel="alternate"></link><updated>2015-12-04T12:00:00+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:koji.noshita.net,2015-12-04:posts/00005.html</id><summary type="html">&lt;h2&gt;概要&lt;/h2&gt;
 &lt;p&gt;腹足類（巻貝）の殻の形態をコントロールする殻成長の勾配パタンをCTデータから定量化する手法を開発しました．&lt;/p&gt;
 &lt;p&gt;腹足類の殻は殻口縁辺部で炭酸カルシウムの結晶を少しずつ付加しながら成長します．
 殻の“外側”が“内側”に比べ大きく成長することで，多くの腹足類では殻が巻くことになります（下図）．
@@ -7,14 +7,14 @@
 &lt;p&gt;本手法は，殻の巻きパタンと殻口の形状が成長に伴い変化する場合（ヘビガイやノタウチガイなどの“異常巻き”巻貝）にも適用できるようデザインされています．&lt;/p&gt;
 &lt;p&gt;本手法はマイクロCTスキャナーのデータ（3Dボクセルデータ）の利用を想定しています．
 今後のCTデータの普及にともない活用できるケースが増えてくると考えています．&lt;/p&gt;
-&lt;p&gt;&lt;img alt="研究目的" src="http://noshita.github.io/materials/newpaperNoshitaetal2016/01.png" title="研究目的" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="研究目的" src="http://koji.noshita.net/materials/newpaperNoshitaetal2016/01.png" title="研究目的" /&gt;&lt;/p&gt;
 &lt;p&gt;本研究は，&lt;a href="https://sites.google.com/site/kshimizulst/"&gt;清水啓介&lt;/a&gt;
  博士（JAMSTEC）と&lt;a href="http://www.um.u-tokyo.ac.jp/hp/sasaki/index.htm"&gt;佐々木猛智&lt;/a&gt;
 准教授（東京大学総合研究博物館）との共同研究です．&lt;/p&gt;
 &lt;h2&gt;論文情報&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;u&gt;Noshita, K.&lt;/u&gt;, Shimizu, K., &amp;amp; Sasaki, T. (2016). Geometric analysis and estimation of the growth rate gradient on gastropod shells. Journal of Theoretical Biology, 389(C), 11–19. &lt;a href="http://doi.org/10.1016/j.jtbi.2015.10.011"&gt;http://doi.org/10.1016/j.jtbi.2015.10.011&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</summary><category term="blog"></category><category term="news"></category><category term="research"></category></entry><entry><title>Dataverseから画像データをまとめて取得する</title><link href="http://noshita.github.io/posts/00004.html" rel="alternate"></link><updated>2015-11-25T19:18:01+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:noshita.github.io,2015-11-25:posts/00004.html</id><summary type="html">&lt;h2&gt;問題&lt;/h2&gt;
+&lt;/ul&gt;</summary><category term="blog"></category><category term="news"></category><category term="research"></category></entry><entry><title>Dataverseから画像データをまとめて取得する</title><link href="http://koji.noshita.net/posts/00004.html" rel="alternate"></link><updated>2015-11-25T19:18:01+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:koji.noshita.net,2015-11-25:posts/00004.html</id><summary type="html">&lt;h2&gt;問題&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://dataverse.harvard.edu/"&gt;Harvard Dataverse&lt;/a&gt;に保存されている&lt;br /&gt;
 あるdatasetから画像データを一括で保存しようとしたらサイズ制限のため &lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;***.jpeg (image/jpeg) **** bytes.
@@ -113,5 +113,5 @@ Search APIのfqオプションの働きがよくわからず，例に上がっ�
 &lt;li&gt;Data Access API&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary><category term="blog"></category><category term="dataverse"></category><category term="database"></category><category term="python"></category></entry><entry><title>引っ越しました</title><link href="http://noshita.github.io/posts/00001.html" rel="alternate"></link><updated>2015-08-06T01:00:00+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:noshita.github.io,2015-08-06:posts/00001.html</id><summary type="html">&lt;p&gt;不備があれば御連絡下さい．&lt;br /&gt;
+&lt;/ul&gt;</summary><category term="blog"></category><category term="dataverse"></category><category term="database"></category><category term="python"></category></entry><entry><title>引っ越しました</title><link href="http://koji.noshita.net/posts/00001.html" rel="alternate"></link><updated>2015-08-06T01:00:00+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:koji.noshita.net,2015-08-06:posts/00001.html</id><summary type="html">&lt;p&gt;不備があれば御連絡下さい．&lt;br /&gt;
 noshita at morphometrics.jp&lt;/p&gt;</summary><category term="blog"></category><category term="web"></category><category term="pelican"></category><category term="news"></category></entry></feed>
