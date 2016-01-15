@@ -67,8 +67,7 @@ Linuxの方は各自頑張れると思います．
 
 ### サンプルデータ
 ワークショップではChitwood LabのWebページで公開しているトマトの野生種の画像データベースのサンプルを利用しました．  
-これらのデータは@(Chitwood2012)の解析に実際に用いられたデータセットです．  
-しかし，著作権的な問題のため，ここにそれらデータを転載することはしません．  
+これらのデータは@(Chitwood2012)の解析に実際に用いられたデータセットです（著作権的な問題のため，データの転載はしません）．  
 興味がある方は[Chitwood Lab](http://www.chitwoodlab.org/)の[Wild relatives of tomato | Database](http://www.chitwoodlab.org/#!wild-relatives-of-tomato/c1o7b)を参照して下さい．
 
 代わりに，ここでは@(Chitwood2015)のブドウの野生種の葉の画像データの一部を楕円フーリエ解析の具体的な手順の説明に用います．
@@ -110,6 +109,8 @@ Fijiには幾つかの領域分割のためプラグインが導入されてい�
 
 ##### 1.2 Graph Cut
 
+
+
 ##### 1.3 Level Set
 
 
@@ -122,6 +123,8 @@ Fijiには幾つかの領域分割のためプラグインが導入されてい�
 
 
 #### 3. エッヂ検出
+
+「Manage update sites」を押し，Manage update sites のウィンドウを開きます．Biomedgroupにチェックを入れ，「Add update site」を押し追加します．最後に，ImageJ Updaterウィンドウで「Apply changes」ボタンを押し，Biomedgroupのライブラリ群を導入し，Fijiを再起動します．これで，IJ Blobライブラリが利用可能になりました．
 
 ### Rでの輪郭形状解析と統計処理
 
