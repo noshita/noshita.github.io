@@ -40,16 +40,6 @@
     <!-- Nested Navibar -->
         <link rel="stylesheet" href="http://koji.noshita.net/theme/css/nestednavimenu.css" type="text/css"/>
 
-    <!-- add target="_blank" to <a> tag if a domain of url indicates "outside" -->
-        <script type="text/javascript" src="http://koji.noshita.net/theme/js/jquery.min.js"></script>
-        <script language="JavaScript">
-            $(document).ready( function () {
-            $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
-            // alert("test");
-            // alert(location.hostname);
-            })
-        </script>
-
 </head>
 <body>
 
@@ -160,8 +150,7 @@ Linuxの方は各自頑張れると思います．</p>
 <h5>Mac</h5>
 <h3>サンプルデータ</h3>
 <p>ワークショップではChitwood LabのWebページで公開しているトマトの野生種の画像データベースのサンプルを利用しました．<br />
-これらのデータは<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の解析に実際に用いられたデータセットです．<br />
-しかし，著作権的な問題のため，ここにそれらデータを転載することはしません．<br />
+これらのデータは<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の解析に実際に用いられたデータセットです（著作権的な問題のため，データの転載はしません）．<br />
 興味がある方は<a href="http://www.chitwoodlab.org/">Chitwood Lab</a>の<a href="http://www.chitwoodlab.org/#!wild-relatives-of-tomato/c1o7b">Wild relatives of tomato | Database</a>を参照して下さい．</p>
 <p>代わりに，ここでは<a class="citation" data-key="Chitwood2015" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2015">(Chitwood et al. 2015)</a>のブドウの野生種の葉の画像データの一部を楕円フーリエ解析の具体的な手順の説明に用います．
 <!-- **そのため結果として出てくる図は<a class="citation" data-key="Chitwood2012" data-locator="" data-modifier="" data-prefix="" href="#Chitwood2012">(Chitwood et al. 2012)</a>の知見とは一致しません．**  -->
@@ -202,6 +191,7 @@ Linuxの方は各自頑張れると思います．</p>
 「Plugin」→「Segmentation」で利用できるので試してみて下さい．</p>
 <h4>2. 二値化</h4>
 <h4>3. エッヂ検出</h4>
+<p>「Manage update sites」を押し，Manage update sites のウィンドウを開きます．Biomedgroupにチェックを入れ，「Add update site」を押し追加します．最後に，ImageJ Updaterウィンドウで「Apply changes」ボタンを押し，Biomedgroupのライブラリ群を導入し，Fijiを再起動します．これで，IJ Blobライブラリが利用可能になりました．</p>
 <h3>Rでの輪郭形状解析と統計処理</h3>
 <h4>1. エッヂ検出</h4>
 <h4>2. 楕円フーリエ解析</h4>
