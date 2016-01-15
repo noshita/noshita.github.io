@@ -10,8 +10,8 @@ Summary: これまでとこれからの活動
 ### これから
 * 2016.02.10　[ワークショップ Field phenomics with big data](https://sites.google.com/a/ut-biomet.org/pheno-ws/home)で発表します．
 * 2016.03.20-24　[生態学会](http://www.esj.ne.jp/meeting/63/ "第63回日本生態学会大会@仙台")
-	* 03.22　17:00-19:00 [自由集会W15 貝類を通して生命現象に迫る 4：生活史](http://www.molluscoida.org/workshops/workshop2016esj)を企画します．
-	* 03.24　[ポスター P2-205 葉形状の3D表面データからの再構築と幾何学的解析](http://www.esj.ne.jp/meeting/abst/63/poster_P2-204_.html)で発表します．
+	* 03.22　[自由集会W15 貝類を通して生命現象に迫る 4：生活史](http://www.molluscoida.org/workshops/workshop2016esj)を企画します．
+	* 03.24　[ポスター P2-205](http://www.esj.ne.jp/meeting/abst/63/poster_P2-204_.html)で発表します．
 * 2016.04.16-17　[生物地理学会](http://biogeo.a.la9.jp/)
 
 ### これまで
