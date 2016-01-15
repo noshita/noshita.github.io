@@ -39,6 +39,16 @@
     <!-- Nested Navibar -->
         <link rel="stylesheet" href="http://koji.noshita.net/theme/css/nestednavimenu.css" type="text/css"/>
 
+    <!-- add target="_blank" to <a> tag if a domain of url indicates "outside" -->
+        <script type="text/javascript" src="http://koji.noshita.net/theme/js/jquery.min.js"></script>
+        <script language="JavaScript">
+            $(document).ready( function () {
+            $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+            // alert("test");
+            // alert(location.hostname);
+            })
+        </script>
+
 </head>
 <body>
 
