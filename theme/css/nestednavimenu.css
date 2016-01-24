@@ -73,6 +73,7 @@
     }
     ul.nav  li.dropdown-submenu > .dropdown-menu{
         display: block;
+        box-sizing:border-box;
         position: relative;
         left: 25px;
         background-color:transparent;
