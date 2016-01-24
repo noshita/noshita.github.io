@@ -62,7 +62,8 @@
 }*/
 
 @media (max-width:767px){
-    ul.nav > li.dropdown, .dropdown-submenu > .dropdown-menu{
+    ul.nav > li.dropdown-submenu > .dropdown-menu,
+    ul.nav > li.dropdown > .dropdown-menu{
         display: block;
         position: relative;
         background-color:transparent;
@@ -71,7 +72,8 @@
         margin-top:0;
         width:100%;
     }
-    ul.nav > li.dropdown, .dropdown-submenu > .dropdown-menu:hover{
+    ul.nav > li.dropdown-submenu > .dropdown-menu,
+    ul.nav > li.dropdown > .dropdown-menu:hover{
 		color:#000000;
     }
     .navbar-nav .dropdown-menu > li > a, 
