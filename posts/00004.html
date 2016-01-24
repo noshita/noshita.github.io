@@ -198,22 +198,22 @@ subtreeオプションやfqオプションでは対応できなさそう．<br /
 <p>大体こんな感じ．</p>
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">re</span><span class="o">,</span><span class="nn">json</span>
 
-<span class="c"># fileの情報一覧の読み込み</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;filelist.json&quot;</span><span class="p">,</span><span class="s">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+<span class="c1"># fileの情報一覧の読み込み</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;filelist.json&quot;</span><span class="p">,</span><span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="n">filelist</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
 
-<span class="c"># 特定のデータセットを指定するパタン</span>
-<span class="c"># 今回はDOIで指定する</span>
-<span class="n">PTNDOI</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">r&quot;[データセットを指定するDOI]&quot;</span><span class="p">)</span>
-<span class="c"># 欲しいfileの種類を指定するパタン</span>
-<span class="n">PTNTYPE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">r&quot;[fileのtype，e.g. 拡張子]&quot;</span><span class="p">)</span>
+<span class="c1"># 特定のデータセットを指定するパタン</span>
+<span class="c1"># 今回はDOIで指定する</span>
+<span class="n">PTNDOI</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">r&quot;[データセットを指定するDOI]&quot;</span><span class="p">)</span>
+<span class="c1"># 欲しいfileの種類を指定するパタン</span>
+<span class="n">PTNTYPE</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">r&quot;[fileのtype，e.g. 拡張子]&quot;</span><span class="p">)</span>
 
-<span class="c"># 必要なfile一覧の生成</span>
+<span class="c1"># 必要なfile一覧の生成</span>
 <span class="n">targetlist</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">filelist</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">PTNDOI</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s">&#39;dataset_citation&#39;</span><span class="p">])</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">PTNTYPE</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s">&#39;file_type&#39;</span><span class="p">])</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
-            <span class="n">targetlist</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">item</span><span class="p">[</span><span class="s">&#39;name&#39;</span><span class="p">],</span><span class="n">item</span><span class="p">[</span><span class="s">&#39;url&#39;</span><span class="p">]))</span>
+    <span class="k">if</span> <span class="n">PTNDOI</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s1">&#39;dataset_citation&#39;</span><span class="p">])</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">PTNTYPE</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="s1">&#39;file_type&#39;</span><span class="p">])</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="n">targetlist</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">item</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span><span class="n">item</span><span class="p">[</span><span class="s1">&#39;url&#39;</span><span class="p">]))</span>
 </pre></div>
 
 
@@ -224,13 +224,13 @@ subtreeオプションやfqオプションでは対応できなさそう．<br /
 大体こんな感じ．</p>
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">urllib.request</span>
 
-<span class="c"># 出力先の指定</span>
+<span class="c1"># 出力先の指定</span>
 <span class="n">OUTPURDIR</span> <span class="o">=</span> <span class="p">[</span><span class="err">出力先のディレクトリ</span><span class="p">]</span>
 
-<span class="c"># fileのダウンロード</span>
+<span class="c1"># fileのダウンロード</span>
 <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">targetlist</span><span class="p">:</span>
     <span class="n">outputfilepath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">OUTPUTDIR</span><span class="p">,</span><span class="n">item</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-    <span class="c"># 既にファイルが存在する場合は保存しない</span>
+    <span class="c1"># 既にファイルが存在する場合は保存しない</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">outputfilepath</span><span class="p">):</span>
         <span class="n">urllib</span><span class="o">.</span><span class="n">request</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">outputfilepath</span><span class="p">)</span>
 </pre></div>
