@@ -72,6 +72,9 @@
         margin-top:0;
         width:100%;
     }
+    ul.nav  li.dropdown-submenu > .dropdown-menu{
+        left: 25px;
+    }
     ul.nav  li.dropdown-submenu > .dropdown-menu:hover,
     ul.nav > li.dropdown > .dropdown-menu:hover{
 		color:#000000;
