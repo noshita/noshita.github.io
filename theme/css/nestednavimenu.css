@@ -1,7 +1,7 @@
 /* Small devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   /* Fix Bootstrap dropdown to work on hover*/
-  ul.nav li.dropdown:hover > ul.dropdown-menu {
+  ul.nav div.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
 }
@@ -14,7 +14,7 @@
 }*/
 
 @media (max-width:767px){
-    ul.nav > li.dropdown > .dropdown-menu{
+    ul.nav > div.dropdown > .dropdown-menu{
         display: block;
         position: relative;
         background-color:transparent;
@@ -23,7 +23,7 @@
         margin-top:0;
         width:100%;
     }
-    ul.nav > li.dropdown > .dropdown-menu:hover{
+    ul.nav > div.dropdown > .dropdown-menu:hover{
 		color:#000000;
     }
     .navbar-nav .dropdown-menu > li > a, 
