@@ -72,7 +72,8 @@
         border:0 none;
         box-shadow:none;
         margin-top:0;
-        width:100%;
+        width: 95%;
+        left: 5%;
     }
     ul.nav  li.dropdown-submenu > .dropdown-menu:hover,
     ul.nav > li.dropdown > .dropdown-menu:hover{
@@ -80,10 +81,9 @@
     }
     .navbar-nav .dropdown-menu > li > a, 
     .navbar-nav .dropdown-menu .dropdown-header {
-        padding:0px 10px 10px 25px;
+        padding:0px 10px 10px 10px;
     }
     .navbar-default .navbar-nav .dropdown-menu > li > a{
-        
         color:#777;
     }
     a.dropdown-toggle .caret {
