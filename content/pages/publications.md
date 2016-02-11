@@ -23,6 +23,7 @@ Summary: 論文や発表のリスト
 ### 国際学会
 
 #### 口頭
+1. __Noshita, K.__ Leaf surface reconstruction from point cloud data: a post-process of field phenotyping. Field Phenomics with Big Data. The University of Tokyo, Japan. Feb. 10, 2016.
 1. __Noshita, K.__, Shimizu, K., Sasaki, T. Estimation of the growth rate gradient on molluscan shells: From shape to growth. 2015 Joint Meeting of The 5th China-Japan-Korea Colloquium on Mathematical Biology and The Japanese Society for Mathematical Biology. Doshisha University, Kyoto, Japan. Aug. 28, 2015.
 1. __Noshita, K.__ The difference of morphological diversity between land and marine gastropod shells. 2014 ESA Annual Meeting. Sacramento Convention Center, CA, USA. Aug. 2014（査読あり）.
 1. __Noshita, K.__ Quantification of coiling patterns in gastropod shells and evaluation of functional traits.
@@ -62,6 +63,7 @@ ESJ59/EAFES5（滋賀） 2012/3
 1. __野下浩司__, 浅見崇比呂, 生形貴男 腹足類における機能的トレードオフ. 第12回日本進化学会大会（） 2010年8月
 
 ## 企画
+* [International Workshop] Guo, W., Watanabe, K., __Noshita, K.__, Iwata, H., Ninomiya, S. [Field Phenomics with Big Data](https://sites.google.com/a/ut-biomet.org/pheno-ws/). Feb. 10, 2016.
 * [自由集会@ESJ] 清水啓介, __野下浩司__ [貝類を通して生命現象に迫る 3: 行動](http://www.molluscoida.org/workshops/workshop2015esj, "貝類学研究集会@鹿児島"). 日本生態学会第 62 回全国大会 W27 鹿児島大学 2015 年 3 月
 * [自由集会@ESJ] __野下浩司__, 清水啓介 [貝類を通して生命現象に迫る 2: 生物間相互作用](http://www.molluscoida.org/workshops/workshop2014, "貝類学研究集会@広島"). 日本生態学会第 61 回全国大会 W16 広島国際会議場 2014 年
 3月

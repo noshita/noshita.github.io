@@ -41,7 +41,7 @@ MENUITEMS = [
 			("Research", "/pages/research.html"),
 			("Publications", "/pages/publications.html"),
 			("Profile", "/pages/profile.html"),
-			("Notes", ["/pages/notes.html", ("Morphometrics", "/pages/morphometrics.html"),("S&M", "/pages/sandm.html"),("Computational Biology", ["/pages/compbio.html", ("S&M", "/pages/sandm.html")])]),
+			("Notes", ["/pages/notes.html", ("Morphometrics", "/pages/morphometrics.html"),("S&M", "/pages/sandm.html"),("Computational Biology", "/pages/compbio.html")]),
 			("Blog", "/tag/blog.html")
 			]
 

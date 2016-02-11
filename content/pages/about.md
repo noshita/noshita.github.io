@@ -1,6 +1,6 @@
 Title: About
 Date: 2015-08-06 22:00
-Modified: 2015-12-17 18:20:00
+Modified: 2016-01-25 21:13:05
 Tags: 研究
 Slug: profile
 Authors: Koji NOSHITA
@@ -59,7 +59,7 @@ in National Museum of Natural History （アメリカ），受入研究者 Rober
 
 ## 査読経験
 
-* Journal of Marine Biology
+* Journal of Marine Biology, Journal of Theoretical Biology
 
 ## 所属学会
 
