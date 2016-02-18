@@ -1,6 +1,6 @@
 Title: Activities
 Date: 2015-08-06 22:00
-Modified: 2016-02-11 13:20:33
+Modified: 2016-02-18 12:12:44
 Tags: 研究
 Slug: activities
 Authors: Koji NOSHITA
@@ -12,7 +12,7 @@ Summary: これまでとこれからの活動
 	* 03.22　[自由集会W15 「貝類を通して生命現象に迫る 4：生活史」](http://www.molluscoida.org/workshops/workshop2016esj)を企画します．
 	* 03.24　[ポスター P2-205](http://www.esj.ne.jp/meeting/abst/63/poster_P2-204_.html)で発表します．
 * 2016.04.16-17　[生物地理学会](http://biogeo.a.la9.jp/)
-	* 04.17　シンポジウム「形態測定学と地理的分布： かたちの定量化と生物地理学・文化地理学への応用」で講演します．
+	* 04.17　[シンポジウム「形態測定学と地理的分布： かたちの定量化と生物地理学・文化地理学への応用」](http://biogeo.a.la9.jp/meeting/sympo/2016%20program.htm)で講演します．
 
 ### これまで
 * 2016.02.10　[ワークショップ 「Field phenomics with big data」](https://sites.google.com/a/ut-biomet.org/pheno-ws/home)で発表しました．
