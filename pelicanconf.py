@@ -21,7 +21,7 @@ LOCALE = ('usa', 'jpn',  # On Windows
     'en_US', 'ja_JP'     # On Unix/Linux
     )
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = 'ja'
 
 
 

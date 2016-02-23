@@ -1,10 +1,11 @@
 Title: About
 Date: 2015-08-06 22:00
-Modified: 2016-01-25 21:13:05
+Modified: 2016-02-23 13:32:58
 Tags: 研究
 Slug: profile
 Authors: Koji NOSHITA
 Summary: プロフィールです．
+Lang: ja
 
 ## 野下 浩司 （のした　こうじ）
 
@@ -44,7 +45,7 @@ Summary: プロフィールです．
 * 2014 年 1 月 29 日-2014 年 2 月 20 日　標本の撮影と測定  
 in National Museum of Natural History （アメリカ），受入研究者 Robert Hershler  
 自然共生社会を拓くアジア保全生態学(九州大学 GCOE プログラム)  
-* 2014 年 4月 1日-2014 年 11月 30日 Visiting Scholar in Plotkin Research Group，UPenn （アメリカ）  
+* 2014 年 4月 1日-2014 年 11月 30日 Visiting Scholar in [Plotkin Research Group](http://mathbio.sas.upenn.edu/)，UPenn （アメリカ）  
 * 平成27（2015）年4月 – 現在　　東京大学 農学生命科学研究科 特任研究員  
 
  
