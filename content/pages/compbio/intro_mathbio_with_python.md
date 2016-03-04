@@ -5,7 +5,7 @@ Tags: 研究
 Slug: intro_mathbio_with_python
 Authors: Koji NOSHITA
 Summary: 巌佐(1990)に沿ったテーマをPythonで数値実験．
-Status: draft
+Status: hidden
 
 ## 第1部 生物の人口論
 

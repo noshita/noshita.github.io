@@ -5,7 +5,7 @@ Tags: 研究
 Slug: compbio_with_python
 Authors: Koji NOSHITA
 Summary: pythonを使った生物学的課題の解析．
-Status: draft
+Status: hidden
 
 対象の目安は生物学科の学部3年生以上．
 # 基礎
