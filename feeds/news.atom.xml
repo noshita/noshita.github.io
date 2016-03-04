@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Koji NOSHITA</title><link href="http://koji.noshita.net/" rel="alternate"></link><link href="http://koji.noshita.net/feeds/news.atom.xml" rel="self"></link><id>http://koji.noshita.net/</id><updated>2015-12-04T12:00:00+09:00</updated><entry><title>論文が出版されました</title><link href="http://koji.noshita.net/posts/00005.html" rel="alternate"></link><updated>2015-12-04T12:00:00+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:koji.noshita.net,2015-12-04:posts/00005.html</id><summary type="html">&lt;h2&gt;概要&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Koji Noshita</title><link href="http://koji.noshita.net/" rel="alternate"></link><link href="http://koji.noshita.net/feeds/news.atom.xml" rel="self"></link><id>http://koji.noshita.net/</id><updated>2015-12-04T12:00:00+09:00</updated><entry><title>論文が出版されました</title><link href="http://koji.noshita.net/posts/00005.html" rel="alternate"></link><updated>2015-12-04T12:00:00+09:00</updated><author><name>Koji NOSHITA</name></author><id>tag:koji.noshita.net,2015-12-04:posts/00005.html</id><summary type="html">&lt;h2&gt;概要&lt;/h2&gt;
 &lt;p&gt;腹足類（巻貝）の殻の形態をコントロールする殻成長の勾配パタンをCTデータから定量化する手法を開発しました．&lt;/p&gt;
 &lt;p&gt;腹足類の殻は殻口縁辺部で炭酸カルシウムの結晶を少しずつ付加しながら成長します．
 殻の“外側”が“内側”に比べ大きく成長することで，多くの腹足類では殻が巻くことになります（下図）．
