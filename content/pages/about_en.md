@@ -23,7 +23,7 @@ I am broadly interested in evolutionary morphology and morphometrics.
 	* Earthenware
 
 
-## Affilications
+## Affiliations
 * [The University of Tokyo](http://www.u-tokyo.ac.jp/en/index.html)  
   [Graduate School of Agricultural and Life Sciences](http://www.a.u-tokyo.ac.jp/english/index.html)  
   [Department of Agricultural and Environmental Biology](http://www.ab.a.u-tokyo.ac.jp/aeb/index-e.html)  
