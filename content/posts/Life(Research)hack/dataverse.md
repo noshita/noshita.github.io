@@ -2,7 +2,6 @@ Title: Dataverseから画像データをまとめて取得する
 Date: 2015-11-25 19:18:01
 Tags: blog,dataverse, database, python
 Slug: 00004
-Author: Koji NOSHITA
 Summary: Dataverseから画像ファイルをpythonを使って無理やりまとめてダウンロードする．
 Status: published
 

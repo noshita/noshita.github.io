@@ -3,7 +3,6 @@ Date: 2015-09-20 18:00
 Modified: 2015-09-20 18:00
 Tags: 研究
 Slug: workshop2015_jsb
-Authors: Koji NOSHITA
 Bibliography: pages/morphometrics/workshop2015_jsb.bib
 Summary: 育種学会2015秋の若手の会ワークショップでおこなった葉の輪郭形状解析のまとめ
 

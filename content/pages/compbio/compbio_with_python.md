@@ -1,9 +1,8 @@
 Title: Computational Biology with Python
 Date: 2015-09-20 0:00
 Modified: 2015-09-20 0:00
-Tags: 研究
+Tags: 研究, python, 数理生物学
 Slug: compbio_with_python
-Authors: Koji NOSHITA
 Summary: pythonを使った生物学的課題の解析．
 Status: hidden
 

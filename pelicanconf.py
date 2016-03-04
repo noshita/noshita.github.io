@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 import locale
 
-AUTHOR = 'Koji NOSHITA'
-SITENAME = 'Koji NOSHITA'
+AUTHOR = 'Koji Noshita'
+SITENAME = 'Koji Noshita'
 SITEURL = ''
 
 PATH = 'content'

@@ -3,7 +3,6 @@ Date: 2015-08-06 22:00
 Modified: 2015-12-17 18:26:00
 Tags: 研究
 Slug: publications
-Authors: Koji NOSHITA
 Summary: 論文や発表のリスト
 
 

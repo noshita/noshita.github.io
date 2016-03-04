@@ -3,7 +3,6 @@ Date: 2015-09-20 0:00
 Modified: 2015-11-05 0:00
 Tags: 研究
 Slug: notes
-Authors: Koji NOSHITA
 Summary: ある程度まとまった記録帳
 
 ## [Morphometrics]({filename}/pages/morphometrics/morphometrics.md)

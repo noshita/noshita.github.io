@@ -3,7 +3,6 @@ Date: 2015-09-20 0:00
 Modified: 2015-09-20 0:00
 Tags: 研究
 Slug: datasets
-Authors: Koji NOSHITA
 Summary: 様々なデータセットについて
 
 ## データ

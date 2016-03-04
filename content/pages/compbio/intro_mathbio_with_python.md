@@ -1,15 +1,18 @@
 Title: 数理生物学入門 with Python
 Date: 2016-02-29 00:16:18
 Modified: 2016-02-29 00:16:18
-Tags: 研究
+Tags: 研究, python, 数理生物学
 Slug: intro_mathbio_with_python
-Authors: Koji NOSHITA
 Summary: 巌佐(1990)に沿ったテーマをPythonで数値実験．
 Status: hidden
 
+## 概要
+[巌佐(1990)](http://www.amazon.co.jp/%E6%95%B0%E7%90%86%E7%94%9F%E7%89%A9%E5%AD%A6%E5%85%A5%E9%96%80%E2%80%95%E7%94%9F%E7%89%A9%E7%A4%BE%E4%BC%9A%E3%81%AE%E3%83%80%E3%82%A4%E3%83%8A%E3%83%9F%E3%83%83%E3%82%AF%E3%82%B9%E3%82%92%E6%8E%A2%E3%82%8B-%E5%B7%8C%E4%BD%90-%E5%BA%B8/dp/4320054857/ref=sr_1_1?s=books&ie=UTF8&qid=1457090247&sr=1-1&keywords=%E6%95%B0%E7%90%86%E7%94%9F%E7%89%A9%E5%AD%A6%E5%85%A5%E9%96%80)のテーマをPythonで数値実験や可視化して理解する．
+生態学的なトピックがメイン．
+
 ## 第1部 生物の人口論
 
-* 第1章 1種個体群のダイナミックス
+* [第1章 1種個体群のダイナミックス]()
 * 第2章 種の競争
 * 第3章 捕食者と餌のサイクル
 * 第4章 離散時間モデル

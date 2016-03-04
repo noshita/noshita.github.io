@@ -3,7 +3,6 @@ Date: 2015-08-06 22:00
 Modified: 2016-02-23 13:32:58
 Tags: 研究
 Slug: profile
-Authors: Koji NOSHITA
 Summary: プロフィールです．
 Lang: ja
 

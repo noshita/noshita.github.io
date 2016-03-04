@@ -3,11 +3,10 @@ Date: 2016-02-23 11:59:45
 Modified: 2016-02-23 11:59:45
 Tags: research
 Slug: profile
-Authors: Koji NOSHITA
 Summary: CV
 Lang: en
 
-## Koji NOSHITA
+## Koji Noshita
 
 ![in Okinawa]({filename}/images/portrait_01.png)
 ![at Meihohama Ferry Terminal in Fukuoka, Japan]({filename}/images/portrait_02.png)

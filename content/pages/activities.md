@@ -3,7 +3,6 @@ Date: 2015-08-06 22:00
 Modified: 2016-02-18 12:12:44
 Tags: 研究
 Slug: activities
-Authors: Koji NOSHITA
 Summary: これまでとこれからの活動
 
 ## 活動

@@ -3,7 +3,6 @@ Date: 2015-09-20 0:00
 Modified: 2015-09-20 0:00
 Tags: 研究
 Slug: compbio
-Authors: Koji NOSHITA
 Summary: 計算機を使った生物学的課題の解析．
 
 ## トピック
