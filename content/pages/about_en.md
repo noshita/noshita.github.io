@@ -66,7 +66,7 @@ I am broadly interested in evolutionary morphology and morphometrics.
 
 ## Referee Activities
 
-* Journal of Marine Biology, Journal of Theoretical Biology
+* Journal of Marine Biology, Journal of Theoretical Biology, Scientific Reports
 
 ## Academic Societies
 

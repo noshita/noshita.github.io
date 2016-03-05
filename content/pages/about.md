@@ -59,7 +59,7 @@ in National Museum of Natural History （アメリカ），受入研究者 Rober
 
 ## 査読経験
 
-* Journal of Marine Biology, Journal of Theoretical Biology
+* Journal of Marine Biology, Journal of Theoretical Biology, Scientific Reports
 
 ## 所属学会
 
