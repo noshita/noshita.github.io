@@ -107,7 +107,7 @@ for item in targetlist:
 しかし，ホントはもっとdataverseのapiを駆使してシンプルに操作すべきだと思う．  
 Search APIのfqオプションの働きがよくわからず，例に上がっていたfq=publication_date_s:2015すらうまく機能しなかった．  
 
-また[Data Access API](guides.dataverse.org/en/latest/api/dataaccess.html)も存在するので  
+また[Data Access API](http://guides.dataverse.org/en/latest/api/dataaccess.html)も存在するので  
 もう少し賢くダウンロード出来たかもしれない．
 
 * dataverseのAPI
