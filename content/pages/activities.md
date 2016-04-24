@@ -10,6 +10,7 @@ Summary: これまでとこれからの活動
 * 2016.05.13　[底生生物学分野セミナー（東京大学）](http://www.ecosystem.aori.u-tokyo.ac.jp/benthos/)で発表します．
 * 2016.06.24-26　[古生物学会](http://www.palaeo-soc-japan.jp/index.html)
 * 2016.09.07-09　[数理生物学会](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/home.html)
+* 2016.09.24-25　[育種学会](http://www.nacos.com/jsb/index.html)
 
 
 ### これまで
