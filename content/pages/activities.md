@@ -1,19 +1,21 @@
 Title: Activities
 Date: 2015-08-06 22:00
-Modified: 2016-04-23 06:42:57
+Modified: 2016-05-24 23:57:19
 Tags: 研究
 Slug: activities
 Summary: これまでとこれからの活動
 
 ## 活動
 ### これから
-* 2016.05.13　[底生生物学分野セミナー（東京大学）](http://www.ecosystem.aori.u-tokyo.ac.jp/benthos/)で発表します．
 * 2016.06.24-26　[古生物学会](http://www.palaeo-soc-japan.jp/index.html)
+	* [夜間小集会「3D形態測定学」](http://www.morphometrics.jp/pages/workshop2016psj.html)を企画します．
+	* 口頭発表します．
 * 2016.09.07-09　[数理生物学会](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/home.html)
 * 2016.09.24-25　[育種学会](http://www.nacos.com/jsb/index.html)
 
 
 ### これまで
+* 2016.05.13　[底生生物学分野セミナー（東京大学）](http://www.ecosystem.aori.u-tokyo.ac.jp/benthos/)で発表しました．
 * 2016.04.16-17　[生物地理学会](http://biogeo.a.la9.jp/)
 	* 04.17　[シンポジウム「形態測定学と地理的分布： かたちの定量化と生物地理学・文化地理学への応用」](http://biogeo.a.la9.jp/meeting/sympo/2016%20program.htm)で講演しました．
 * 2016.03.20-24　[生態学会](http://www.esj.ne.jp/meeting/63/ "第63回日本生態学会大会@仙台")
