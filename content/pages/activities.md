@@ -8,8 +8,8 @@ Summary: これまでとこれからの活動
 ## 活動
 ### これから
 * 2016.06.24-26　[古生物学会](http://www.palaeo-soc-japan.jp/index.html)
-	* [夜間小集会「3D形態測定学」](http://www.morphometrics.jp/pages/workshop2016psj.html)を企画します．
-	* 口頭発表します．
+	* 2016.06.25　[夜間小集会「3D形態測定学」](http://www.morphometrics.jp/pages/workshop2016psj.html)を企画します．
+	* 2016.06.25　口頭発表します．
 * 2016.09.07-09　[数理生物学会](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/home.html)
 * 2016.09.24-25　[育種学会](http://www.nacos.com/jsb/index.html)
 
