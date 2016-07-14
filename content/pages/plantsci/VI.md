@@ -9,7 +9,8 @@ Summary: 植生指数のリスト
 
 ## 単純な指数
 
-| Name                | Equation                    | pros/cons | ref                        |
+|         Name        |           Equation          | pros/cons |            ref             |
+| :------------------ | :-------------------------- | :-------- | :------------------------- |
 | DVI (Difference VI) | $N-R$                       |           | Tucker (1979)              |
 | RVI (Ration VI)     | $\frac{N}{R}$               |           | Birth & McVey (1968)       |
 | $CI_{590}$          | $\frac{N_{880}}{VIS_{590}}$ |           | Gitelson & Merzlyak (1997) |
@@ -17,14 +18,25 @@ Summary: 植生指数のリスト
 
 ## 正規化指標
 
-| Name                            | Equation          | pros/cons | ref                 |
-| NDVI (Normalized Difference VI) | $\frac{N-R}{N+R}$ |           | Rouse et al. (1974) |
-|                                 |                   |           |                     |
+|          Name         |      Equation     | pros/cons |         ref         |
+| :-------------------- | :---------------- | :-------- | :------------------ |
+| NDVI (Normalized DVI) | $\frac{N-R}{N+R}$ | test      | Rouse et al. (1974) |
+|                       |                   |           |                     |
 
 
 ## マルチチャネル指標
+|               Name               |                      Equation                     | pros/cons |          ref           |
+| :------------------------------- | :------------------------------------------------ | :-------- | :--------------------- |
+| Kauth - Thomas 変換              | LANDSAT7用                                        |           |                        |
+| CAI (Cellulose Absorption Index) | $\frac{0.5 \rho_{2000}-\rho_{2000}}{\rho_{2100}}$ |           | Daughtry et al. (2000) |
+|                                  |                                                   |           |                        |
 
 ## ハイパースペクトル指標
+|                  Name                 |                         Equation                        | pros/cons |          ref           |
+| :------------------------------------ | :------------------------------------------------------ | :-------- | :--------------------- |
+| REP (Red Edge Position)               |                                                         |           | Jago et al. (1999)参照 |
+| PRI (Photochemical Reflectance Index) | $\frac{\rho_{570}-\rho_{531}}{\rho_{531} + \rho_{570}}$ |           | Gamon et al. 1992      |
+|                                       |                                                         |           |                        |
 
 
 ## 参考文献
