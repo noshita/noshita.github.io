@@ -48,6 +48,7 @@ MENUITEMS = [
 # Blogroll
 LINKS = (('生物測定学研究室', 'https://sites.google.com/a/ut-biomet.org/lbm/home'),
          ('数理生物学研究室', 'http://bio-math10.biology.kyushu-u.ac.jp/'),
+         ('morphometrics.jp', 'http://www.morphometrics.jp/'),
          ('貝類学研究集会', 'http://www.molluscoida.org'),
          )
 
