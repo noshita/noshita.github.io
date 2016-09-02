@@ -7,14 +7,15 @@ Summary: これまでとこれからの活動
 
 ## 活動
 ### これから
-* 2016.08.25-28　[進化学会](http://www.kuba.co.jp/sesj2016/)
-	* 08.25　 [口頭 O-1A-4](http://www.kuba.co.jp/sesj2016/program.html)で発表します．
+* 2016.08.25-28　[ワークショップ 「Multi-scale Plant Phenomics」](http://www.morphometrics.jp/pages/workshop2016plantphenomics.html)を企画します．
 * 2016.09.07-09　[数理生物学会](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/home.html)
 	* 09.08　 [ミニシンポジウム「Plant Phenotyping with Morphometrics」](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/minisymposia.html)を企画します．
 * 2016.09.24-25　[育種学会](http://www.nacos.com/jsb/06/06gaiyou.html)
 
 
 ### これまで
+* 2016.08.25-28　[進化学会](http://www.kuba.co.jp/sesj2016/)
+	* 08.25　 [口頭 O-1A-4](http://www.kuba.co.jp/sesj2016/program.html)で発表しました．
 * 2016.06.24-26　[古生物学会](http://www.palaeo-soc-japan.jp/index.html)
 	* 2016.06.25　[夜間小集会「3D形態測定学」](http://www.morphometrics.jp/pages/workshop2016psj.html)を企画しました．
 	* 2016.06.25　[ポスター P17, 口頭 C11](http://www.palaeo-soc-japan.jp/download/meeting_program_PDF/1606_Fukui_program.pdf)で発表しました．
