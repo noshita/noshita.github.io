@@ -7,7 +7,7 @@ Summary: これまでとこれからの活動
 
 ## 活動
 ### これから
-* 2016.08.25-28　[ワークショップ 「Multi-scale Plant Phenomics」](http://www.morphometrics.jp/pages/workshop2016plantphenomics.html)を企画します．
+* 2016.09.03　[ワークショップ 「Multi-scale Plant Phenomics」](http://www.morphometrics.jp/pages/workshop2016plantphenomics.html)を企画します．
 * 2016.09.07-09　[数理生物学会](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/home.html)
 	* 09.08　 [ミニシンポジウム「Plant Phenotyping with Morphometrics」](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/minisymposia.html)を企画します．
 * 2016.09.24-25　[育種学会](http://www.nacos.com/jsb/06/06gaiyou.html)
