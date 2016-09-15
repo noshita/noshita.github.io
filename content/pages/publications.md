@@ -28,7 +28,7 @@ Summary: 論文や発表のリスト
 1. __Noshita, K.__ Leaf surface reconstruction from noisy point cloud. Multi-scale Plant Phenomics. The University of Tokyo, Japan. Sep. 3, 2016.
 1. __Noshita, K.__ Leaf surface reconstruction from point cloud data: a post-process of field phenotyping. Field Phenomics with Big Data. The University of Tokyo, Japan. Feb. 10, 2016.
 1. __Noshita, K.__, Shimizu, K., Sasaki, T. Estimation of the growth rate gradient on molluscan shells: From shape to growth. 2015 Joint Meeting of The 5th China-Japan-Korea Colloquium on Mathematical Biology and The Japanese Society for Mathematical Biology. Doshisha University, Kyoto, Japan. Aug. 28, 2015.
-1. __Noshita, K.__ The difference of morphological diversity between land and marine gastropod shells. 2014 ESA Annual Meeting. Sacramento Convention Center, CA, USA. Aug. 2014（査読あり）.
+1. __Noshita, K.__ The difference of morphological diversity between land and marine gastropod shells. 2014 ESA Annual Meeting. Sacramento Convention Center, CA, USA. Aug. 2014.
 1. __Noshita, K.__ Quantification of coiling patterns in gastropod shells and evaluation of functional traits.
 Evolution2014. Raleigh Convention Center, NC, USA. June 2014.
 
@@ -51,12 +51,12 @@ ESJ59/EAFES5（滋賀） 2012/3
 1. __野下浩司__ 腹足類殻の"巻き"パタンの3Dおよび2Dイメージデータに基づく定量化法. 日本古生物学会2013年年会（熊本） 2013年6月29日
 1. __野下浩司__ 腹足類の殻形態と物理的制約への理論形態学的アプローチ. 日本生態学会第60回全国大会（自由集会，静岡） 2013年3月5日
 1. __野下浩司__ 腹足類穀形態の物理的環境への適応. 日本数理生物学会第21回大会（自由集会，岡山） 2012年9月11日
-1. 唐沢與希, 前田晴良, __野下浩司__ Hypophylloceras属の殻に見られる特異的な破損パターン. 第161回日本古生物学会例会（） 2012年1月21日
-1. __野下浩司__ ホヤ脊索における収斂伸長. 日本数理生物学会第21回大会（） 2011年9月
-1. __野下浩司__ 腹足類の殻口の傾きと生息環境. 日本古生物学会2011年年会（） 2011年7月
-1. __野下浩司__ 腹足類に殻口の傾きにおける制約. 日本生態学会第58回大会（） 2011年3月
-1. __野下浩司__, 浅見崇比呂, 生形貴男 腹足類の殻形態における制約. 日本数理生物学会第20回大会（） 2010年9月
-1. __野下浩司__, 浅見崇比呂, 生形貴男 腹足類の形態的多様性の制約. 日本古生物学会2010年年会（） 2010年6月
+1. 唐沢與希, 前田晴良, __野下浩司__ Hypophylloceras属の殻に見られる特異的な破損パターン. 第161回日本古生物学会例会（富岡市生涯学習センター，群馬） 2012年1月21日
+1. __野下浩司__ ホヤ脊索における収斂伸長. 日本数理生物学会第21回大会（明治大学，東京） 2011年9月
+1. __野下浩司__ 腹足類の殻口の傾きと生息環境. 日本古生物学会2011年年会（金沢大学，石川） 2011年7月
+1. __野下浩司__ 腹足類に殻口の傾きにおける制約. 日本生態学会第58回大会（札幌コンベンションセンター，北海道） 2011年3月
+1. __野下浩司__, 浅見崇比呂, 生形貴男 腹足類の殻形態における制約. 日本数理生物学会第20回大会（北海道大学，北海道） 2010年9月
+1. __野下浩司__, 浅見崇比呂, 生形貴男 腹足類の形態的多様性の制約. 日本古生物学会2010年年会（筑波大学，茨城） 2010年6月
 
 
 #### ポスター
@@ -67,8 +67,8 @@ ESJ59/EAFES5（滋賀） 2012/3
 1. __野下浩司__. 腹足類の殻に保存された成長の記録. 日本生態学会第62回全国大会（鹿児島大学，鹿児島） 2015/3/19
 1. __野下浩司__. 腹足類殻形態の定量化と機能評価.日本生態学会第 61 回全国大会 PA2-013 広島国際会議場 2014年3月
 1. __野下浩司__ 腹足類殻形態の定量化フレームワーク構築に向けて. 日本生態学会第60回全国大会（静岡） 2013年3月6日
-1. __野下浩司__ 腹足類の殻口の傾き. 第161回日本古生物学会例会（） 2012年1月21日 **ポスター賞**
-1. __野下浩司__, 浅見崇比呂, 生形貴男 腹足類における機能的トレードオフ. 第12回日本進化学会大会（） 2010年8月
+1. __野下浩司__ 腹足類の殻口の傾き. 第161回日本古生物学会例会（富岡市生涯学習センター，群馬） 2012年1月21日 **ポスター賞**
+1. __野下浩司__, 浅見崇比呂, 生形貴男 腹足類における機能的トレードオフ. 第12回日本進化学会大会（東京工業大学，東京） 2010年8月
 
 ## 企画
 * [mini-symposium@JSMB] __Noshita, K.__ [Plant phenotyping with morphometrics](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/minisymposia.html#s11). JSMB2016 8E1-S11 Kyushu Univ. 2016/9/8
