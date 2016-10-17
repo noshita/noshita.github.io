@@ -23,6 +23,9 @@ I am broadly interested in evolutionary morphology and morphometrics.
 
 
 ## Affiliations
+* [科学技術振興機構](http://www.jst.go.jp/)  
+  [戦略的創造研究推進事業](https://www.jst.go.jp/kisoken/index.html) [さきがけ](https://www.jst.go.jp/kisoken/presto/index.html)   
+  研究領域「[情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出](https://www.jst.go.jp/kisoken/presto/research_area/ongoing/bunyah27-6.html)」
 * [The University of Tokyo](http://www.u-tokyo.ac.jp/en/index.html)  
   [Graduate School of Agricultural and Life Sciences](http://www.a.u-tokyo.ac.jp/english/index.html)  
   [Department of Agricultural and Environmental Biology](http://www.ab.a.u-tokyo.ac.jp/aeb/index-e.html)  
@@ -38,7 +41,9 @@ I am broadly interested in evolutionary morphology and morphometrics.
 
 ## Professional Experience
 * 2012 - 2015		Research Fellow (JSPS DC1)  
-* 2015 - present		Project Researcher (UTokyo)
+* 2015 - 2016		Project Researcher (UTokyo)
+* 2016 - present  JST PRESTO Researcher
+* 2016 - present  Visiting Fellow (UTokyo)
 
 ## Teaching Experience
 * 2010 - 2012  

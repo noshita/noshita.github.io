@@ -21,7 +21,9 @@ Lang: ja
 
 
 ## 現所属
-
+* [科学技術振興機構](http://www.jst.go.jp/)  
+  [戦略的創造研究推進事業](https://www.jst.go.jp/kisoken/index.html) [さきがけ](https://www.jst.go.jp/kisoken/presto/index.html)   
+  研究領域「[情報科学との協働による革新的な農産物栽培手法を実現するための技術基盤の創出](https://www.jst.go.jp/kisoken/presto/research_area/ongoing/bunyah27-6.html)」
 * [東京大学](http://www.u-tokyo.ac.jp)  
   [農学生命科学研究科](http://www.a.u-tokyo.ac.jp/) [生産・環境生物学専攻](http://www.ab.a.u-tokyo.ac.jp/aeb/)  
   [生物測定学研究室](https://sites.google.com/a/ut-biomet.org/lbm/home)
@@ -45,7 +47,9 @@ Lang: ja
 in National Museum of Natural History （アメリカ），受入研究者 Robert Hershler  
 自然共生社会を拓くアジア保全生態学(九州大学 GCOE プログラム)  
 * 2014 年 4月 1日-2014 年 11月 30日 Visiting Scholar in [Plotkin Research Group](http://mathbio.sas.upenn.edu/)，UPenn （アメリカ）  
-* 平成27（2015）年4月 – 現在　　東京大学 農学生命科学研究科 特任研究員  
+* 平成27（2015）年4月 – 平成28（2016）年9月　　東京大学 農学生命科学研究科 特任研究員
+* 平成28（2016）年10月 – 現在　　科学技術振興機構	さきがけ専任研究員
+* 平成28（2016）年10月 – 現在　　東京大学 農学生命科学研究科 農学共同研究員
 
  
 ## 受賞
