@@ -7,14 +7,19 @@ Summary: これまでとこれからの活動
 
 ## 活動
 ### これから
-* 2016.09.24-25　[育種学会](http://www.nacos.com/jsb/06/06gaiyou.html)
-	* 09.25　口頭 515で発表します．
+* 2016.10.18　Special Workshop for Genomics Selection in Plant Breeding: Current Status and Future Perspectives of Genomic Selection and its Related Technologiesで発表します．
+* 2016.10.20-21　[1st Asia-Pacific Plant Phenotyping Conference](http://www.appp-con.org/)
+	* 10.20　発表します．
+* 2016.12.13-15　[4th International Plant Phenotyping Symposium](http://www.cimmyt.org/event/4th-international-plant-phenotyping-symposium/)
 * 2017.01.27-29　[古生物学会](http://www.palaeo-soc-japan.jp/index.html) 
 * 2017.03.14-18　[生態学会](http://www.esj.ne.jp/meeting/64/)
+* 2017.03.29-30　[育種学会](http://www.nacos.com/jsb/06/06top.html)
 * 2017.06.23-26　The 5th International Symposium on Biological Shape Analysis
 
 
 ### これまで
+* 2016.09.24-25　[育種学会](http://www.nacos.com/jsb/06/06gaiyou.html)
+	* 09.25　口頭 515で発表しました．
 * 2016.09.07-09　[数理生物学会](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/home.html)
 	* 09.08　 [ミニシンポジウム「Plant Phenotyping with Morphometrics」](http://bio-math10.biology.kyushu-u.ac.jp/jsmb2016/minisymposia.html)を企画しました．
 * 2016.09.03　[ワークショップ 「Multi-scale Plant Phenomics」](http://www.morphometrics.jp/pages/workshop2016plantphenomics.html)を企画しました．
