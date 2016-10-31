@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Categories - Koji Noshita</title>
+    <title>植生指数 Vegetation Indeces - Koji Noshita</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,15 +10,16 @@
 
     <link href="http://koji.noshita.net/images/site_logo_favi.png" rel="icon">
 
+<link rel="canonical" href="http://koji.noshita.net/pages/VI.html">
 
         <meta name="author" content="Koji Noshita" />
+        <meta name="description" content="植生指数のリスト" />
 
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="Koji Noshita" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Koji Noshita"/>
-        <meta property="og:url" content="http://koji.noshita.net"/>
-        <meta property="og:description" content="Koji Noshita"/>
+    <meta property="og:site_name" content="Koji Noshita" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="植生指数 Vegetation Indeces"/>
+    <meta property="og:url" content="http://koji.noshita.net/pages/VI.html"/>
+    <meta property="og:description" content="植生指数のリスト" />
 
 
     <!-- Bootstrap -->
@@ -104,36 +105,188 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="categories">
-        <h1>All Categories for Koji Noshita</h1>
-        <div class="panel-group" id="accordion">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-liferesearchhack">Life(Research)hack <span class="badge pull-right">1</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-liferesearchhack" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2015-11-25T19:18:01+09:00">Wed 25 November 2015</time></span> <a href="http://koji.noshita.net/posts/00004.html">Dataverseから画像データをまとめて取得する</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-news">News <span class="badge pull-right">2</span></a>
-                    </h4>
-                </div>
-                <div id="collapse-news" class="panel-collapse collapse">
-                    <div class="panel-body">
-                        <p><span class="categories-timestamp"><time datetime="2015-12-04T12:00:00+09:00">Fri 04 December 2015</time></span> <a href="http://koji.noshita.net/posts/00005.html">論文が出版されました</a></p>
-                        <p><span class="categories-timestamp"><time datetime="2015-08-06T01:00:00+09:00">Thu 06 August 2015</time></span> <a href="http://koji.noshita.net/posts/00001.html">引っ越しました</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="content" class="body">
+        <h1 class="entry-title">植生指数 Vegetation Indeces</h1>
+        
+        <div class="entry-content">
+            <p>まずは「植生のリモートセンシング」（Box 7.1: pp. 214-215）を参考にする．</p>
+<h2>単純な指数</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Equation</th>
+<th align="left">pros/cons</th>
+<th align="left">ref</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">DVI (Difference VI)</td>
+<td align="left"><span class="math">\(N-R\)</span></td>
+<td align="left"></td>
+<td align="left">Tucker (1979)</td>
+</tr>
+<tr>
+<td align="left">RVI (Ration VI)</td>
+<td align="left"><span class="math">\(\frac{N}{R}\)</span></td>
+<td align="left"></td>
+<td align="left">Birth &amp; McVey (1968)</td>
+</tr>
+<tr>
+<td align="left"><span class="math">\(CI_{590}\)</span></td>
+<td align="left"><span class="math">\(\frac{N_{880}}{VIS_{590}}\)</span></td>
+<td align="left"></td>
+<td align="left">Gitelson &amp; Merzlyak (1997)</td>
+</tr>
+</tbody>
+</table>
+<h2>正規化指標</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Equation</th>
+<th align="left">pros/cons</th>
+<th align="left">ref</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">NDVI (Normalized DVI)</td>
+<td align="left"><span class="math">\(\frac{N-R}{N+R}\)</span></td>
+<td align="left">test</td>
+<td align="left">Rouse et al. (1974)</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2>マルチチャネル指標</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Equation</th>
+<th align="left">pros/cons</th>
+<th align="left">ref</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Kauth - Thomas 変換</td>
+<td align="left">LANDSAT7用</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">CAI (Cellulose Absorption Index)</td>
+<td align="left"><span class="math">\(\frac{0.5 \rho_{2000}-\rho_{2000}}{\rho_{2100}}\)</span></td>
+<td align="left"></td>
+<td align="left">Daughtry et al. (2000)</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2>ハイパースペクトル指標</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Equation</th>
+<th align="left">pros/cons</th>
+<th align="left">ref</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">REP (Red Edge Position)</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">Jago et al. (1999)参照</td>
+</tr>
+<tr>
+<td align="left">PRI (Photochemical Reflectance Index)</td>
+<td align="left"><span class="math">\(\frac{\rho_{570}-\rho_{531}}{\rho_{531} + \rho_{570}}\)</span></td>
+<td align="left"></td>
+<td align="left">Gamon et al. 1992</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2>参考文献</h2>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
 
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' && location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+        </div>
     </section>
         </div>
         <div class="col-sm-3" id="sidebar">
