@@ -1,14 +1,17 @@
-## Pelican
+# Pelican
 output/*
 *.pid
 
-## Python
+# Python
 *.py[cod]
 
-## MacOS X
+# pyenv-virtualenv
+.python-version
+
+# MacOS X
 .DS_Store
 .*~
 *~
 
-## others
+# others
 config.json
